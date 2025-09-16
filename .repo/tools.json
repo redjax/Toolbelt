@@ -738,6 +738,99 @@
       "dev"
     ],
     "notes": []
+  },
+  {
+    "name": "ripgrep",
+    "urls": [
+      {"home": "https://github.com/BurntSushi/ripgrep"},
+      {"github": "https://github.com/BurntSushi/ripgrep"},
+      {"docs": "https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#documentation-quick-links"}
+    ],
+    "description": "A line-oriented search tool that recursively searches your current directory for a regex pattern. Similar to grep, but faster.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "search"
+    ],
+    "notes": []
+  },
+  {
+    "name": "fzf",
+    "urls": [
+      {"home": "https://junegunn.github.io/fzf/"},
+      {"github": "https://github.com/junegunn/fzf"},
+      {"docs": "https://junegunn.github.io/fzf/getting-started/"}
+    ],
+    "description": "A general-purpose command-line fuzzy finder. It can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "search",
+      "productivity"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Terraform",
+    "urls": [
+      {"home": "https://www.terraform.io"},
+      {"github": "https://github.com/hashicorp/terraform"},
+      {"docs": "https://www.terraform.io/docs/index.html"},
+      {"registry": "https://registry.terraform.io/providers/integrations/github/latest/docs"}
+    ],
+    "description": "Terraform is an open-source infrastructure as code software tool created by HashiCorp. It allows users to define and provision data center infrastructure using a high-level configuration language known as HashiCorp Configuration Language (HCL), or optionally JSON.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "devops",
+      "iac",
+      "automation"
+    ],
+    "notes": []
+  },
+  {
+    "name": "OpenTofu",
+    "urls": [
+      {"home": "https://opentofu.org"},
+      {"github": "https://github.com/opentofu/opentofu"},
+      {"docs": "https://opentofu.org/docs/"},
+      {"registry": "https://github.com/opentofu/registry"}
+    ],
+    "description": "OpenTofu is a community-driven, open-source infrastructure as code (IaC) tool that enables users to define, provision, and manage cloud infrastructure using a declarative configuration language.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "devops",
+      "iac",
+      "automation"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Terraformer",
+    "urls": [
+      {"home": "https://github.com/GoogleCloudPlatform/terraformer"},
+      {"github": "https://github.com/GoogleCloudPlatform/terraformer"}
+    ],
+    "description": "A CLI tool to generate terraform files from existing infrastructure (reverse Terraform).",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "devops",
+      "iac",
+      "automation"
+    ],
+    "notes": []
   }
 ]
 
