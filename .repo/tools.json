@@ -465,6 +465,120 @@
       "multiplexer"
     ],
     "notes": []
+  },
+  {
+    "name": "neovim",
+    "urls": [
+      {"home": "https://neovim.io"},
+      {"github": "https://github.com/neovim/neovim"},
+      {"docs": "https://neovim.io/doc/"}
+    ],
+    "description": "Neovim is a hyperextensible Vim-based text editor. It seeks to improve upon Vim by providing better defaults, a more modern codebase, and a robust plugin architecture.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "editor",
+      "dev",
+      "vim",
+      "tui"
+    ],
+    "notes": []
+  },
+  {
+    "name": "tmux",
+    "urls": [
+      {"home": "https://github.com/tmux/tmux"},
+      {"github": "https://github.com/tmux/tmux"},
+      {"docs": "https://github.com/tmux/tmux/wiki"}
+    ],
+    "description": "tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them and reattach them to a different terminal.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "terminal",
+      "multiplexer"
+    ],
+    "notes": []
+  },
+  {
+    "name": "zellij",
+    "urls": [
+      {"home": "https://zellij.dev"},
+      {"github": "https://github.com/zellij-org/zellij"},
+      {"docs": "https://zellij.dev/documentation/"}
+    ],
+    "description": "A terminal workspace with batteries included. A terminal multiplexer and more.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "terminal",
+      "multiplexer"
+    ],
+    "notes": []
+  },
+  {
+    "name": "termscp",
+    "urls": [
+      {"home": "https://termscp.veeso.dev/"},
+      {"github": "https://github.com/veeso/termscp"},
+      {"docs": "https://termscp.veeso.dev/user-manual.html"}
+    ],
+    "description": "A terminal file transfer client and file manager with a user-friendly TUI. Supports SFTP, FTP, FTPS, SCP, and local file operations.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "tui",
+      "file-transfer",
+      "sftp",
+      "ftp",
+      "scp"
+    ],
+    "notes": []
+  },
+  {
+    "name": "WinSCP",
+    "urls": [
+      {"home": "https://winscp.net/eng/index.php"},
+      {"docs": "https://winscp.net/eng/docs/start"},
+      {"github": "https://github.com/winscp/winscp"}
+    ],
+    "description": "A popular free SFTP and FTP client for Windows, a powerful file manager that will improve your productivity.",
+    "tags": [
+      "windows",
+      "cli",
+      "file-transfer",
+      "sftp",
+      "ftp",
+      "scp"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Gickup",
+    "urls": [
+      {"home": "https://gickup.dev"},
+      {"github": "https://github.com/cooperspencer/gickup"},
+      {"docs": "https://gickup.dev/category/configuration"}
+    ],
+    "description": "A simple, fast, and secure backup tool that uses Git as the backend. It can back up files and directories to a local or remote Git repository.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "backup",
+      "automation",
+      "git"
+    ],
+    "notes": []
   }
 ]
 
