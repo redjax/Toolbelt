@@ -1,0 +1,175 @@
+[
+  {
+    "name": "scoop",
+    "urls": [
+      {"home": "https://scoop.sh"},
+      {"apps": "https://scoop.sh/#/apps"},
+      {"buckets": "https://scoop.sh/#/buckets"},
+      {"install-docs": "https://github.com/ScoopInstaller/Install#readme"},
+      {"github": "https://github.com/ScoopInstaller/Scoop"}
+    ],
+    "description": "CLI package manager for Windows. Installs all packages to a user-writeable path so backups are easy and admin privileges are not required.",
+    "tags": [
+      "windows",
+      "package_manager",
+      "cli"
+    ],
+    "notes": []
+  },
+  {
+    "name": "chezmoi",
+    "urls": [
+      {"home": "https://www.chezmoi.io"},
+      {"docs": "https://www.chezmoi.io/user-guide/command-overview/"},
+      {"github": "https://github.com/twpayne/chezmoi"}
+    ],
+    "description": "Dotfile manager written in Go. Uses Go templates to render files per-machine. Backups & restores to a Git repository.",
+    "tags": [
+      "linux",
+      "mac",
+      "dotfiles",
+      "cli"
+    ],
+    "notes": []
+  },
+  {
+    "name": "git",
+    "urls": [
+      {"home": "https://git-scm.com"},
+      {"docs": "https://git-scm.com/doc"},
+      {"downloads": "https://git-scm.com/downloads"}
+
+    ],
+    "description": "Git needs no introduction!",
+    "tags": [
+      "windows",
+      "mac",
+      "linux",
+      "cli",
+      "version-control",
+      "git"
+    ],
+    "notes": []
+  },
+  {
+    "name": "LazyGit",
+    "urls": [
+      {"home": "https://github.com/jesseduffield/lazygit"},
+      {"github": "https://github.com/jesseduffield/lazygit"},
+      {"tutorials": "https://github.com/jesseduffield/lazygit#tutorials"},
+      {"installation": "https://github.com/jesseduffield/lazygit#installation"},
+      {"usage": "https://github.com/jesseduffield/lazygit#usage"},
+      {"configuration": "https://github.com/jesseduffield/lazygit#configuration"}
+    ],
+    "description": "Terminal UI for interacting with Git repositories.",
+    "tags": [
+      "linux",
+      "windows",
+      "mac",
+      "cli",
+      "tui",
+      "version-control",
+      "git"
+    ],
+    "notes": []
+  },
+  {
+    "name": "hoppscotch",
+    "urls": [
+      {"home": "https://hoppscotch.ioO"},
+      {"github": "https://github.com/hoppscotch/hoppscotch"},
+      {"docs": "https://docs.hoppscotch.io/documentation"}
+    ],
+    "description": "Open-source, self-hostable API development ecosystem. An alternative to Postman",
+    "tags": [
+      "windows",
+      "mac",
+      "linux",
+      "cli",
+      "webui",
+      "api",
+      "dev",
+      "selfhost"
+    ],
+    "notes": []
+  },
+  {
+    "name": "HTTPie",
+    "urls": [
+      {"home": "https://httpie.io"},
+      {"github": "https://github.com/httpie"},
+      {"docs": "https://httpie.io/docs"}
+    ],
+    "description": "Open-source API development ecosystem. An alternative to Postman",
+    "tags": [
+      "windows",
+      "mac",
+      "linux",
+      "cli",
+      "tui",
+      "api",
+      "dev"
+    ],
+    "notes": []
+  },
+  {
+    "name": "direnv",
+    "urls": [
+      {"home": "https://direnv.net"},
+      {"github": "https://github.com/direnv/direnv"},
+      {"docs": "https://direnv.net/#docs"}
+    ],
+    "description": "Dotfile manager written in Go. Uses Go templates to render files per-machine. Backups & restores to a Git repository.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "ci",
+      "cli",
+      "dev",
+      "automation"
+    ],
+    "notes": []
+  },
+  {
+    "name": "RClone",
+    "urls": [
+      {"home": "https://rclone.org"},
+      {"github": "https://github.com/rclone/rclone"},
+      {"docs": "https://rclone.org/install/"}
+    ],
+    "description": "'rsync for cloud storage.' RClone lets you connect to many backends, like S3, Dropbox, Backblaze B2, Google Drive, Wasabi, etc, and sync to/from it like you would with rsync.",
+    "tags": [
+      "linux",
+      "mac",
+
+      "windows",
+      "cli",
+      "automation",
+      "file-transfer"
+    ],
+    "notes": []
+  },
+  {
+    "name": "cookiecutter",
+    "urls": [
+
+      {"home": "https://github.com/cookiecutter/cookiecutter"},
+      {"docs": "https://cookiecutter.readthedocs.io/"},
+      {"github": "https://github.com/cookiecutter/cookiecutter"},
+      {"pypi": "https://pypi.org/project/cookiecutter"}
+    ],
+    "description": "Dotfile manager written in Go. Uses Go templates to render files per-machine. Backups & restores to a Git repository.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "automation",
+      "templating",
+      "dev"
+    ],
+    "notes": []
+  }
+]
+
