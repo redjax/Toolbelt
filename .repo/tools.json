@@ -262,6 +262,24 @@
     "notes": []
   },
   {
+    "name": "resticprofile",
+    "urls": [
+      {"home": "https://creativeprojects.github.io/resticprofile/"},
+      {"github": "https://github.com/creativeprojects/resticprofile"},
+      {"docs": "https://creativeprojects.github.io/resticprofile/configuration/index.html"}
+    ],
+    "description": "A wrapper around restic to manage multiple backup profiles with different configurations. Uses a `~/.profile.yaml` file to define backup jobs.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "backup",
+      "automation"
+    ],
+    "notes": []
+  },
+  {
     "name": "radon",
     "urls": [
       {"home": "https://radon.readthedocs.io/en/latest/"},
@@ -370,6 +388,81 @@
       "dev",
       "automation",
       "git"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Dagger",
+    "urls": [
+      {"home": "https://dagger.io"},
+      {"github": "https://github.com/dagger/dagger"},
+      {"docs": "https://docs.dagger.io"}
+    ],
+    "description": "Dagger is a programmable CI/CD engine that lets you define and run pipelines as code using a unified API across any language, framework, or cloud.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "automation",
+      "ci",
+      "containers"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Aqua",
+    "urls": [
+      {"home": "https://aquaproj.github.io/"},
+      {"github": "https://github.com/aquaproj/aqua"},
+      {"docs": "https://aquaproj.github.io/docs/"}
+    ],
+    "description": "Aqua is a CLI tool that manages your developer tools and ensures consistent versions across your projects. It supports multiple languages and package managers.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "automation",
+      "version-manager"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Starship",
+    "urls": [
+      {"home": "https://starship.rs"},
+      {"github": "https://github.com/starship/starship"},
+      {"docs": "https://starship.rs/guide/"}
+    ],
+    "description": "The minimal, blazing-fast, and infinitely customizable prompt for any shell.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "shell",
+      "customization"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Wezterm",
+    "urls": [
+      {"home": "https://wezterm.org"},
+      {"github": "https://github.com/wezterm/wezterm"},
+      {"docs": "https://wezterm.org/config/files.html"}
+    ],
+    "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "terminal",
+      "multiplexer"
     ],
     "notes": []
   }
