@@ -579,6 +579,91 @@
       "git"
     ],
     "notes": []
+  },
+  {
+    "name": "gitextensions",
+    "urls": [
+      {"home": "https://gitextensions.github.io/"},
+      {"github": "https://github.com/gitextensions/gitextensions"},
+      {"docs": "https://git-extensions-documentation.readthedocs.io"}
+    ],
+    "description": "A graphical user interface for Git that allows you to manage your repositories, visualize your commit history, and perform common Git operations.",
+    "tags": [
+      "windows",
+      "git",
+      "version-control"
+    ],
+    "notes": []
+  },
+  {
+    "name": "cyberduck",
+    "urls": [
+      {"home": "https://cyberduck.io"},
+      {"github": "https://github.com/iterate-ch/cyberduck"},
+      {"docs": "https://docs.cyberduck.io"}
+    ],
+    "description": "A libre server and cloud storage browser for Mac and Windows with support for FTP, SFTP, WebDAV, S3, Azure & OpenStack Swift.",
+    "tags": [
+      "windows",
+      "mac",
+      "file-transfer",
+      "sftp",
+      "ftp",
+      "scp"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Rio Term",
+    "urls": [
+      {"home": "https://rioterm.com"},
+      {"github": "https://github.com/raphamorim/rio"},
+      {"docs": "https://rioterm.com/docs/config"}
+    ],
+    "description": "A modern SSH client and terminal emulator that simplifies remote server management with an intuitive interface and powerful features.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "terminal",
+      "ssh"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Ghostty",
+    "urls": [
+      {"home": "https://ghostty.org"},
+      {"github": "https://github.com/ghostty-org/ghostty"},
+      {"docs": "https://ghostty.org/docs"}
+    ],
+    "description": "A web-based terminal emulator that allows you to access your terminal from any device with a web browser.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "terminal",
+      "ssh",
+      "webui"
+    ],
+    "notes": []
+  },
+  {
+    "name": "sourcegit",
+    "urls": [
+      {"home": "https://github.com/sourcegit-scm/sourcegit"},
+      {"github": "https://github.com/sourcegit-scm/sourcegit"},
+      {"docs": "https://github.com/sourcegit-scm/sourcegit?tab=readme-ov-file#how-to-use"}
+    ],
+    "description": "A Git extension that allows you to manage your Git repositories with a simple and intuitive interface.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "git",
+      "version-control"
+    ],
+    "notes": []
   }
 ]
 
