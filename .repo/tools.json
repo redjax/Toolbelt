@@ -664,6 +664,80 @@
       "version-control"
     ],
     "notes": []
+  },
+  {
+    "name": "osv-scanner",
+    "urls": [
+      {"home": "https://osv.dev"},
+      {"github": "https://github.com/google/osv-scanner"},
+      {"docs": "https://osv.dev/docs/"}
+    ],
+    "description": "A tool that scans your project dependencies for known vulnerabilities using the OSV database.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "security"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Helix",
+    "urls": [
+      {"home": "https://helix-editor.com"},
+      {"github": "https://github.com/helix-editor/helix"},
+      {"docs": "https://docs.helix-editor.com/"}
+    ],
+    "description": "A post-modern text editor, built on a solid and efficient core, with a strong focus on performance and ergonomics.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "editor",
+      "dev",
+      "tui"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Neovide",
+    "urls": [
+      {"home": "https://neovide.dev"},
+      {"github": "https://github.com/neovide/neovide"},
+      {"docs": "https://neovide.dev/configuration.html"}
+    ],
+    "description": "A simple, no-nonsense, cross-platform GUI for Neovim.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "editor",
+      "dev",
+      "vim"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Meld",
+    "urls": [
+      {"home": "https://meldmerge.org"},
+      {"gitlab": "https://gitlab.gnome.org/GNOME/meld"},
+      {"docs": "https://gitlab.gnome.org/GNOME/meld/wikis/home"}
+    ],
+    "description": "A visual diff and merge tool that helps you compare files, directories, and version controlled projects.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "diff",
+      "merge",
+      "git",
+      "dev"
+    ],
+    "notes": []
   }
 ]
 
