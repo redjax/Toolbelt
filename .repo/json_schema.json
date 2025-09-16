@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Tool Name",
+    "urls": [
+      "home": "https://example.com",
+      "github": "https://github.com/username/tool-name",
+      "docs": "https://docs.toolname.com"
+    ],
+    "description": "Text describing the tool",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "security",
+      "cli",
+      "tui"
+    ],
+    "notes": [
+      "This is an example note for the tool.",
+      "This is another example note.\nYou can't really do multiline strings in JSON, so use the \\n character instead.\n\tNote you can also use the \\t character to insert tabs."
+    ]
+  }
+]
+
