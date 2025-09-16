@@ -33,11 +33,10 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def main():
-    args = parse_args()
-    
-    log_level = "DEBUG" if args.debug else "INFO"
-    log_fmt = "%(asctime)s | [%(levelname)s] | %(filename)s:%(lineno)d :: %(message)s" if args.debug else "%(asctime)s | [%(levelname)s] :: %(message)s"
+def configure_logging(level: str = "INFO"):
+    """Configure logging with appropriate format and level."""
+    log_level = level.upper() if level else "INFO"
+    log_fmt = "%(asctime)s | [%(levelname)s] | %(filename)s:%(lineno)d :: %(message)s" if log_level == "DEBUG" else "%(asctime)s | [%(levelname)s] :: %(message)s"
     
     logging.basicConfig(
         level=log_level,
@@ -45,8 +44,11 @@ def main():
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[logging.StreamHandler()],
     )
-    
-    log.debug("DEBUG logging enabled")
+
+
+def sort_tools(dry_run: bool = False) -> bool:
+    """Sort the tools in tools.json file. Returns True if successful."""
+    log.debug("Starting sort_tools function")
     
     if not Path(TOOLS_JSON).exists():
         log.error(f"tools.json not found at {TOOLS_JSON}")
@@ -84,11 +86,11 @@ def main():
     
     log.debug(f"Tools (sorted):\n{sorted_tools}")
     
-    if args.dry_run:
+    if dry_run:
         log.info("Dry run enabled. No changes will be written to the file.")
         log.info("Sorted tools would be (first 10):\n" + json.dumps(sorted_tools[:10], indent=4))
         
-        return
+        return True
     
     log.info(f"Writing sorted tools back to file: {TOOLS_JSON}")
     try:
@@ -99,11 +101,25 @@ def main():
         log.error(f"Error writing to file: {e}")
         raise
     
+    return True
 
-if __name__ == "__main__":
+
+def main():
+    """Main function for command-line execution."""
+    args = parse_args()
+    
+    # Configure logging only when run as script
+    configure_logging(level="DEBUG" if args.debug else "INFO")
+    log.debug("DEBUG logging enabled")
+    
     try:
-        main()
-        log.info("tools.json sorted successfully.")
+        success = sort_tools(dry_run=args.dry_run)
+        if success:
+            log.info("tools.json sorted successfully.")
     except Exception as exc:
         log.error(f"An error occurred: {exc}")
         raise
+    
+
+if __name__ == "__main__":
+    main()
