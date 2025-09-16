@@ -170,6 +170,208 @@
       "dev"
     ],
     "notes": []
+  },
+  {
+    "name": "vulture",
+    "urls": [
+      {"home": "https://github.com/jendrikseipp/vulture"},
+      {"github": "https://github.com/jendrikseipp/vulture"}
+    ],
+    "description": "Finds unused code in Python programs.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "python"
+    ],
+    "notes": []
+  },
+  {
+    "name": "pipx",
+    "urls": [
+      {"home": "https://pipx.pypa.io/stable/"},
+      {"github": "https://github.com/pypa/pipx"},
+      {"docs": "https://pipx.pypa.io/stable/docs/"}
+    ],
+    "description": "Install and run Python applications in isolated environments.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "python"
+    ],
+    "notes": []
+  },
+  {
+    "name": "pyenv",
+    "urls": [
+      {"home": "https://github.com/pyenv/pyenv"},
+      {"github": "https://github.com/pyenv/pyenv"},
+      {"docs": "https://github.com/pyenv/pyenv?tab=readme-ov-file#table-of-contents"}
+    ],
+    "description": "Simple Python version management. Allows you to easily switch between multiple versions of Python. Can be used to manage multiple versions of Python on a per-project basis.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "python",
+      "version-manager"
+    ],
+    "notes": []
+  },
+  {
+    "name": "uv",
+    "urls": [
+      {"home": "docs.astral.sh/uv"},
+      {"github": "https://github.com/astral-sh/uv"},
+      {"docs": "https://docs.astral.sh/uv/getting-started/"}
+    ],
+    "description": "A Python package & project manager written in Rust.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "version-manager"
+    ],
+    "notes": []
+  },
+  {
+    "name": "restic",
+    "urls": [
+      {"home": "https://restic.net"},
+      {"github": "https://github.com/restic/restic"},
+      {"docs": "https://restic.readthedocs.io/en/stable/"}
+    ],
+    "description": "Fast, secure, efficient backup program. Supports many backends, including local disk, SFTP, AWS S3, Backblaze B2, Wasabi, Google Cloud Storage, Microsoft Azure Blob Storage, and more.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "backup",
+      "automation"
+    ],
+    "notes": []
+  },
+  {
+    "name": "radon",
+    "urls": [
+      {"home": "https://radon.readthedocs.io/en/latest/"},
+      {"github": "https://github.com/rubik/radon"},
+      {"docs": "https://radon.readthedocs.io/en/latest/"}
+    ],
+    "description": "A Python tool that computes various metrics from the source code. It can compute Cyclomatic Complexity, Halstead metrics, Maintainability Index, and raw metrics like lines of code.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "python"
+    ],
+    "notes": []
+  },
+  {
+    "name": "xenon",
+    "urls": [
+      {"home": "https://xenon.readthedocs.io/en/latest/"},
+      {"github": "https://github.com/rubik/xenon"},
+      {"docs": "https://xenon.readthedocs.io/en/latest/"}
+    ],
+    "description": "A Python tool that checks code complexity against defined thresholds. It can check Cyclomatic Complexity, Maintainability Index, and raw metrics like lines of code.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "python"
+    ],
+    "notes": []
+  },
+  {
+    "name": "devpod",
+    "urls": [
+      {"home": "https://devpod.sh"},
+      {"github": "https://github.com/loft-sh/devpod"},
+      {"docs": "https://devpod.sh/docs/getting-started/installation/"}
+    ],
+    "description": "Like Github codespaces, but open source, client-only, and unopinionated. Works with any IDE and lets you use any cloud, Kubernetes, or localhost Docker.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "containers",
+      "kubernetes",
+      "docker"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Ente Auth",
+    "urls": [
+      {"home": "https://ente.io/auth/"},
+      {"github": "https://github.com/ente-io/ente"}
+    ],
+    "description": "Ente Auth is an open-source identity and access management solution that provides secure authentication and authorization for applications and services.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "android",
+      "ios",
+      "authentication",
+      "security",
+      "mfa"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Fail2Ban",
+    "urls": [
+      {"home": "https://www.fail2ban.org"},
+      {"github": "https://github.com/fail2ban/fail2ban"},
+      {"docs": "https://www.fail2ban.org/wiki/index.php/Main_Page"}
+    ],
+    "description": "Intrusion prevention software framework that protects computer servers from brute-force attacks.",
+    "tags": [
+      "linux",
+      "mac",
+      "security",
+      "cli",
+      "automation",
+      "firewall"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Pre-commit",
+    "urls": [
+      {"home": "https://pre-commit.com"},
+      {"github": "https://github.com/pre-commit/pre-commit"},
+      {"docs": "https://pre-commit.com/#docs"}
+    ],
+    "description": "A framework for managing and maintaining multi-language pre-commit hooks.", 
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "automation",
+      "git"
+    ],
+    "notes": []
   }
 ]
 
