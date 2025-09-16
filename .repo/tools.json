@@ -831,6 +831,44 @@
       "automation"
     ],
     "notes": []
+  },
+  {
+    "name": "Bitwarden",
+    "urls": [
+      {"home": "https://bitwarden.com"},
+      {"github": "https://github.com/bitwarden/"},
+      {"docs": "https://bitwarden.com/help/"}
+    ],
+    "description": "Bitwarden is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "android",
+      "ios",
+      "security",
+      "password-manager",
+      "mfa"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Bitwarden CLI",
+    "urls": [
+      {"home": "https://bitwarden.com/help/cli/"},
+      {"github": "https://github.com/bitwarden/cli"}
+    ],
+    "description": "The Bitwarden CLI is a command-line interface for managing your Bitwarden vault. It allows you to perform various operations such as adding, retrieving, and deleting items in your vault.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "security",
+      "password-manager",
+      "mfa"
+    ],
+    "notes": []
   }
 ]
 
