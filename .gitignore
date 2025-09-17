@@ -1,0 +1,28 @@
+# Environments
+.env
+*.env
+*.*.env
+
+## Allow Environment patterns
+!*example*
+!*example*.*
+!*.*example*
+!*.*example*.*
+!*.*.*example*
+!*.*.*example*.*
+
+## Ignore data directory
+.data/*
+
+## Database
+db.sqlite3
+db.sqlite3-journal
+*.sqlite
+*.sqlite3
+*.db
+*.duck
+*.duckdb
+
+## Logs
+*.log
+*.log.*
