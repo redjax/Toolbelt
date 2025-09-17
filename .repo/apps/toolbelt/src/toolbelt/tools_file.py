@@ -40,6 +40,9 @@ class ToolsFileManager:
 
         return False
 
+    def exists(self) -> bool:
+        return Path(str(self.tools_file)).exists()
+
     def read(self) -> list[dict]:
         if self.data is None:
             with open(self.tools_file, "r", encoding="utf-8") as f:
