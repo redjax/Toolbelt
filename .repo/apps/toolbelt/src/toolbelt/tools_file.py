@@ -50,12 +50,31 @@ class ToolsFileManager:
 
         return self.data
 
+    def save(self) -> None:
+        """Write current data to file immediately."""
+        if self.data is not None:
+            self._write()
+        else:
+            log.warning("No data to save, call read() or set data first.")
+
     def write(self, data: list[dict]) -> None:
+        """Update data and save to file immediately."""
         self.data = data
+        self._write()
+
+    def _data_changed(self) -> bool:
+        """Compare current data with original data to determine if changed."""
+        return self.data != self._original_data
 
     def _write(self):
-        with open(self.tools_file, "w", encoding="utf-8") as f:
-            json.dump(self.data, f, indent=4, default=str)
+        if self._data_changed():
+            with open(self.tools_file, "w", encoding="utf-8") as f:
+                json.dump(self.data, f, indent=4, default=str)
+
+            ## Update original data after writing
+            self._original_data = copy.deepcopy(self.data)
+        else:
+            log.debug("No changes detected, skipping write to file.")
 
     def close(self):
         if self._file_opened:
@@ -66,8 +85,13 @@ class ToolsFileManager:
         self,
         sort_key: str = "name",
         sort_order: str = "asc",
-        save: bool = False,
     ) -> list[dict]:
+        """Sort the tools in tools.json file.
+
+        Params:
+            sort_key (str): The key to sort by.
+            sort_order (str): The order to sort in (asc or desc).
+        """
         if self.data is None:
             self.read()
 
@@ -91,8 +115,5 @@ class ToolsFileManager:
             raise ValueError("sort_order must be 'asc' or 'desc'")
 
         self.data.sort(key=key_funcs[sort_key], reverse=reverse)
-
-        if save:
-            self._write()
 
         return self.data
