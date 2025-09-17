@@ -1,0 +1,147 @@
+[project]
+name = "toolbelt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "redjax", email = "5534031+redjax@users.noreply.github.com" },
+]
+requires-python = ">=3.12"
+dependencies = ["fastparquet>=2024.11.0", "pandas>=2.3.2"]
+
+[project.scripts]
+toolbelt = "toolbelt:main"
+
+[build-system]
+requires = ["uv_build>=0.8.3,<0.9.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["ruff>=0.13.0"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["D", "E", "F401", "I", "I001"]
+ignore = [
+    "D100",
+    "D101",
+    "D102",
+    "D103",
+    "D105",
+    "D106",
+    "D107",
+    "D200",
+    "D203",
+    "D205",
+    "D213",
+    "D401",
+    "E402",
+    "D406",
+    "D407",
+    "D414",
+    "D417",
+    "E501",
+    "E722",
+    "F401",
+]
+fixable = [
+    "C",
+    "D",
+    "E",
+    "E402",
+    "F401",
+    "I",
+    "N",
+    "T",
+    "W",
+    "ERA",
+    "RUF",
+    "TID",
+    "TRY",
+    "UP",
+]
+
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".ruff_cache",
+    ".venv",
+    "__pypackages__",
+    "__pycache__",
+    "*.pyc",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["D104"]
+"alembic/*.py" = ["D400", "D415"]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+force-sort-within-sections = true
+force-wrap-aliases = true
+lines-after-imports = 1
+order-by-type = true
+relative-imports-order = "closest-to-furthest"
+required-imports = ["from __future__ import annotations"]
+section-order = [
+    "future",
+    "standard-library",
+    "first-party",
+    "local-folder",
+    "third-party",
+]
+
+[tool.alembic]
+script_location = "migrations"
+prepend_sys_path = ["."]
+version_path_separator = "os"
+sqlalchemy.url = "driver://user:pass@localhost/dbname"
+
+[tool.alembic.loggers]
+keys = "root,sqlalchemy,alembic"
+
+[tool.alembic.handlers]
+keys = "console"
+
+[tool.alembic.formatters]
+keys = "generic"
+
+[tool.alembic.logger_root]
+level = "WARNING"
+handlers = "console"
+qualname = ""
+
+[tool.alembic.logger_sqlalchemy]
+level = "WARNING"
+handlers = ""
+qualname = "sqlalchemy.engine"
+
+[tool.alembic.logger_alembic]
+level = "INFO"
+handlers = ""
+qualname = "alembic"
+
+[tool.alembic.handler_console]
+class = "StreamHandler"
+args = ["sys.stderr"]
+level = "NOTSET"
+formatter = "generic"
+
+[tool.alembic.formatter_generic]
+format = "%(levelname)-5.5s [%(name)s] %(message)s"
+datefmt = "%H:%M:%S"
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
