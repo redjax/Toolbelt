@@ -7,7 +7,12 @@ authors = [
     { name = "redjax", email = "5534031+redjax@users.noreply.github.com" },
 ]
 requires-python = ">=3.12"
-dependencies = ["fastparquet>=2024.11.0", "pandas>=2.3.2"]
+dependencies = [
+    "fastparquet>=2024.11.0",
+    "ipykernel>=6.30.1",
+    "jupyter>=1.1.1",
+    "pandas>=2.3.2",
+]
 
 [project.scripts]
 toolbelt = "toolbelt:main"
