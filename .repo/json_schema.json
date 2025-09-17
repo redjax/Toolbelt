@@ -2,9 +2,10 @@
   {
     "name": "Tool Name",
     "urls": [
-      {"home": "https://example.com"},
-      {"github": "https://github.com/username/tool-name"},
-      {"docs": "https://docs.toolname.com"}
+      {
+        "name": "url-identifier",
+        "url": "https://example.com"
+      }
     ],
     "description": "Text describing the tool",
     "tags": [
@@ -21,4 +22,3 @@
     ]
   }
 ]
-
