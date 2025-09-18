@@ -1322,6 +1322,26 @@
         "notes": []
     },
     {
+        "name": "Waterfox browser",
+        "urls": [
+            {"name": "home", "url": "https://www.waterfox.net"},
+            {
+                "name": "github",
+                "url": "https://github.com/BrowserWorks/Waterfox"
+            }
+        ],
+        "description": "A web browser based on Mozilla Firefox, focusing on privacy and user choice.",
+        "tags": [
+            "linux",
+            "mac",
+            "windows",
+            "android",
+            "ios",
+            "browser"
+        ],
+        "notes": []
+    },
+    {
         "name": "uv",
         "urls": [
             {
