@@ -3,11 +3,11 @@ name: Lint & format code
 
 on:
   workflow_dispatch:
-  # pull_request:
-  #   branches:
-  #     - main
-  #   paths:
-  #     - '.repo/apps/toolbelt/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - ".repo/apps/toolbelt/**"
 
 jobs:
   lint:
@@ -19,8 +19,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: List current directory contents
-        run: ls -la
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -30,7 +28,7 @@ jobs:
         run: pip install ruff
 
       - name: Run Ruff linter
-        working-directory: ./scripts/updater
+        working-directory: .repo/apps/toolbelt
         run: |
           ## Fix imports
           ruff check .repo/apps/toolbelt --select I --fix
