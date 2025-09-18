@@ -39,7 +39,7 @@ jobs:
       - name: Commit & create PR with lint fixes
         uses: peter-evans/create-pull-request@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           commit-message: "chore(lint): Lint & format updater Python package."
           branch: lint-fixes/${{ github.run_id }}
           title: "chore(lint): Lint & format updater Python package."
