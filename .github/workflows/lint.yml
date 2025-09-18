@@ -31,10 +31,10 @@ jobs:
         working-directory: .repo/apps/toolbelt
         run: |
           ## Fix imports
-          ruff check .repo/apps/toolbelt --select I --fix
+          ruff check . --select I --fix
 
           ## Format code
-          ruff check .repo/apps/toolbelt --fix
+          ruff check . --fix
 
       - name: Commit & create PR with lint fixes
         uses: peter-evans/create-pull-request@v5
