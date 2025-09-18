@@ -42,6 +42,11 @@ jobs:
           ## Commit README.md changes if any, ignoring uv.lock, etc.
           if ! git diff --quiet ../../README.md; then
             git add ../../README.md
+
+            if ! git diff --quiet ../../.repo/tools.json; then
+              git add ../../.repo/tools.json
+            fi
+
             git commit -m "ci: update README.md after tools.json changed in PR merge" || echo "No changes to commit"
           else
             echo "No README.md changes to commit"
