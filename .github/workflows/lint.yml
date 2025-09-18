@@ -1,0 +1,42 @@
+---
+name: Lint & format code
+
+on:
+  workflow_dispatch:
+
+jobs:
+  lint:
+    name: Format & lint ./scripts/updater Python project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+
+      - name: Install Ruff
+        run: pip install ruff
+
+      - name: Run Ruff linter on ./scripts/updater
+        working-directory: ./scripts/updater
+        run: |
+          ## Fix imports
+          ruff check .repo/apps/toolbelt --select I --fix
+
+          ## Format code
+          ruff check .repo/apps/toolbelt --fix
+
+      - name: Commit & create PR with lint fixes
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore(lint): Lint & format updater Python package."
+          branch: lint-fixes/${{ github.run_id }}
+          title: "chore(lint): Lint & format updater Python package."
+          body: |
+            This PR applies automated linting and formatting to the `scripts/updater` Python package using Ruff.
+            - Imports sorted
+            - Code formatted and linted
