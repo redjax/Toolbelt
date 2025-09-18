@@ -1610,5 +1610,29 @@
             "package-manager"
         ],
         "notes": []
+    },
+    {
+        "name": "Pyenv",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://github.com/pyenv/pyenv"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/pyenv/pyenv"
+            }
+        ],
+        "description": "Simple Python version management. Allows you to easily switch between multiple versions of Python. Can be used to manage multiple versions of Python on a per-project basis.",
+        "tags": [
+            "linux",
+            "mac",
+            "windows",
+            "cli",
+            "dev",
+            "python",
+            "version-manager"
+        ],
+        "notes": []
     }
 ]
