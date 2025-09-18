@@ -43,6 +43,15 @@ def main(log_level: str = "INFO"):
         log.warning("tools.json is empty. Nothing to update.")
         return
 
+    tools_manager.sort()
+
+    log.info(f"Saving sorted tools back to {TOOLS_JSON}")
+    try:
+        tools_manager.save()
+    except Exception as e:
+        log.error(f"Failed saving file '{TOOLS_JSON}': {e}")
+        raise
+
     readme_manager: ReadmeTableManager = ReadmeTableManager(README_FILE)
 
     log.info(f"Updating file '{README_FILE}'")
