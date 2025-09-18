@@ -1524,5 +1524,30 @@
             "multiplexer"
         ],
         "notes": []
+    },
+    {
+        "name": "Playnite",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://playnite.link"
+            },
+            {
+                "name": "docs",
+                "url": "https://api.playnite.link/docs/manual/gettingStarted/gettingStartedOverview.html"
+            },
+            {
+                "name": "addons",
+                "url": "https://playnite.link/addons.html"
+            }
+        ],
+        "description": "Open source video game library manager that integrates with many storefronts.",
+        "tags": [
+            "games",
+            "windows",
+            "mac",
+            "linux"
+        ],
+        "notes": []
     }
 ]
