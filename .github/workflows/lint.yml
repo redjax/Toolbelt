@@ -3,14 +3,21 @@ name: Lint & format code
 
 on:
   workflow_dispatch:
+  # pull_request:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - '.repo/apps/toolbelt/**'
 
 jobs:
   lint:
-    name: Format & lint ./scripts/updater Python project
+    name: Format & lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -20,7 +27,7 @@ jobs:
       - name: Install Ruff
         run: pip install ruff
 
-      - name: Run Ruff linter on ./scripts/updater
+      - name: Run Ruff linter
         working-directory: ./scripts/updater
         run: |
           ## Fix imports
