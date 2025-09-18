@@ -3,14 +3,21 @@ name: Lint & format code
 
 on:
   workflow_dispatch:
+  # pull_request:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - ".repo/apps/toolbelt/**"
 
 jobs:
   lint:
-    name: Format & lint ./scripts/updater Python project
+    name: Format & lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -20,19 +27,19 @@ jobs:
       - name: Install Ruff
         run: pip install ruff
 
-      - name: Run Ruff linter on ./scripts/updater
-        working-directory: ./scripts/updater
+      - name: Run Ruff linter
+        working-directory: .repo/apps/toolbelt
         run: |
           ## Fix imports
-          ruff check .repo/apps/toolbelt --select I --fix
+          ruff check . --select I --fix
 
           ## Format code
-          ruff check .repo/apps/toolbelt --fix
+          ruff check . --fix
 
       - name: Commit & create PR with lint fixes
         uses: peter-evans/create-pull-request@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           commit-message: "chore(lint): Lint & format updater Python package."
           branch: lint-fixes/${{ github.run_id }}
           title: "chore(lint): Lint & format updater Python package."
