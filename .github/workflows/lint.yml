@@ -19,6 +19,8 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: List current directory contents
+        run: ls -la
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
