@@ -1,9 +1,12 @@
 import re
 import typing as t
 from pathlib import Path
+import logging
 
 from toolbelt.constants import README_FILE, MARKER_END_STR, MARKER_START_STR
 from toolbelt.classes import Tool
+
+log = logging.getLogger(__name__)
 
 
 __all__ = ["ReadmeTableManager"]
@@ -25,17 +28,25 @@ class ReadmeTableManager:
         render_tags: bool = False,
         render_notes: bool = False,
     ):
-        content = self.read_readme()
+        try:
+            content = self.read_readme()
 
-        new_section = (
-            self.render_markdown_table(tools, render_tags, render_notes)
-            if as_table
-            else self.render_markdown_list(tools, render_tags, render_notes)
-        )
+            if as_table:
+                new_section = self.render_markdown_table(
+                    tools, render_tags, render_notes
+                )
+            else:
+                new_section = self.render_markdown_list(
+                    tools, render_tags, render_notes
+                )
 
-        updated_content = self.replace_marker_section(content, new_section)
+            updated_content = self.replace_marker_section(content, new_section)
 
-        self.write_readme(updated_content)
+            self.write_readme(updated_content)
+        except Exception as e:
+            log.error(f"Error updating README: {e}")
+
+            raise
 
     def read_readme(self) -> str:
         return self.readme_path.read_text(encoding="utf-8")
