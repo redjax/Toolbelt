@@ -16,53 +16,43 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Get list of files changed in PR
-        id: changed_files
-        run: |
-          git fetch origin ${{ github.event.pull_request.base.ref }}
-          files=$(git diff --name-only origin/${{ github.event.pull_request.base.ref }}...${{ github.event.pull_request.head.sha }})
-          echo "files=$files" >> $GITHUB_OUTPUT
-          echo "Changed files: $files"
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            .repo/tools.json
 
-      - name: Check if .repo/tools.json changed
-        id: tools_changed
+      - name: Debug changed files
         run: |
-          changed_files="${{ steps.changed_files.outputs.files }}"
-          echo "Checking if .repo/tools.json is in: $changed_files"
-          if echo "$changed_files" | tr ' ' '\n' | grep -qx '.repo/tools.json'; then
-            echo "tools_json_changed=true" >> $GITHUB_OUTPUT
-            echo ".repo/tools.json was changed"
-          else
-            echo "tools_json_changed=false" >> $GITHUB_OUTPUT
-            echo ".repo/tools.json was not changed"
-          fi
-        shell: bash
+          echo "Any changed files: ${{ steps.changed-files.outputs.any_changed }}"
+          echo "All changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
 
       - name: Install uv
-        if: steps.tools_changed.outputs.tools_json_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         uses: astral-sh/setup-uv@v3
         with:
           enable-cache: true
 
       - name: Configure Git
-        if: steps.tools_changed.outputs.tools_json_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "5534031+github-actions[bot]@users.noreply.github.com"
 
       - name: Run update-readme pipeline if tools.json changed
-        if: steps.tools_changed.outputs.tools_json_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         working-directory: .repo/apps/toolbelt
         run: |
           uv sync
           uv run update_readme.py
 
       - name: Show README.md
-        if: steps.tools_changed.outputs.tools_json_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: cat README.md
 
       - name: Create Pull Request
-        if: steps.tools_changed.outputs.tools_json_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GH_TOKEN }}
