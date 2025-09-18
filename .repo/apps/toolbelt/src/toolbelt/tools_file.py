@@ -120,3 +120,39 @@ class ToolsFileManager:
         self.data.sort(key=key_funcs[sort_key], reverse=reverse)
 
         return self.data
+
+    def dedupe(self):
+        """Merge objects with the same name. Combine urls, tags, notes; keep longest description."""
+        if self.data is None:
+            self.read()
+
+        merged = {}
+        for obj in self.data:
+            name = obj["name"]
+            if name not in merged:
+                ## Make a copy so we don't modify the original list
+                merged[name] = copy.deepcopy(obj)
+            else:
+                m = merged[name]
+
+                ## Combine and deduplicate 'urls', 'tags', and 'notes'
+                m["urls"] = list(
+                    {tuple(sorted(x.items())) for x in m.get("urls", [])}
+                    | {tuple(sorted(x.items())) for x in obj.get("urls", [])}
+                )
+
+                m["urls"] = [dict(u) for u in m["urls"]]
+
+                m["tags"] = list(set(m.get("tags", [])) | set(obj.get("tags", [])))
+                m["notes"] = list(set(m.get("notes", [])) | set(obj.get("notes", [])))
+
+                ## Keep the longer description
+                desc1 = m.get("description", "")
+                desc2 = obj.get("description", "")
+
+                m["description"] = desc1 if len(desc1) >= len(desc2) else desc2
+
+        ## Replace original data with the deduped and merged list
+        self.data = list(merged.values())
+
+        return self.data
