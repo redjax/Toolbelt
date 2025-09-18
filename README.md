@@ -2,6 +2,6 @@
 
 ## Tools
 
-<!-- TOOLS-TABLE:START -->
+<!-- MARKER-TOOLS:START -->
 
-<!-- TOOLS-TABLE:END -->
+<!-- MARKER-TOOLS:END -->
