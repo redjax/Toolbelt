@@ -1,10 +1,12 @@
+from __future__ import annotations
+
+import logging
+from pathlib import Path
 import re
 import typing as t
-from pathlib import Path
-import logging
 
-from toolbelt.constants import README_FILE, MARKER_END_STR, MARKER_START_STR
 from toolbelt.classes import Tool
+from toolbelt.constants import MARKER_END_STR, MARKER_START_STR, README_FILE
 
 log = logging.getLogger(__name__)
 

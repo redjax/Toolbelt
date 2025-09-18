@@ -1,4 +1,6 @@
-from toolbelt import ToolsFileManager, REPO_ROOT, TOOLS_JSON
+from __future__ import annotations
+
+from toolbelt import REPO_ROOT, TOOLS_JSON, ToolsFileManager
 
 tools_manager = ToolsFileManager(tools_file=TOOLS_JSON)
 
