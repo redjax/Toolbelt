@@ -53,6 +53,7 @@ jobs:
 
       - name: Create Pull Request
         if: steps.changed-files.outputs.any_changed == 'true'
+        id: create-pr
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GH_TOKEN }}
@@ -70,3 +71,27 @@ jobs:
             - Updated tools table in README.md
             
             Triggered by PR #${{ github.event.pull_request.number }}
+
+      - name: Auto-merge Pull Request
+        if: steps.changed-files.outputs.any_changed == 'true' && steps.create-pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          pr_number="${{ steps.create-pr.outputs.pull-request-number }}"
+          echo "Auto-merging PR #$pr_number"
+          
+          # Wait a moment for the PR to be fully created
+          sleep 5
+          
+          # Check if PR exists and is mergeable
+          pr_status=$(gh pr view $pr_number --json mergeable,state --jq '.state')
+          echo "PR state: $pr_status"
+          
+          if [ "$pr_status" = "OPEN" ]; then
+            echo "Attempting to merge PR #$pr_number"
+            gh pr merge $pr_number --squash --delete-branch --subject "ci: update README.md and sorted tools.json"
+            echo "PR #$pr_number merged successfully"
+          else
+            echo "PR #$pr_number is not in a mergeable state: $pr_status"
+            exit 1
+          fi
