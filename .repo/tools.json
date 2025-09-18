@@ -1549,5 +1549,30 @@
             "linux"
         ],
         "notes": []
+    },
+    {
+        "name": "Homebrew",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://brew.sh"
+            },
+            {
+                "name": "docs",
+                "url": "https://docs.brew.sh/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/Homebrew/brew"
+            }
+        ],
+        "description": "The missing package manager for macOS (also works on Linux).",
+        "tags": [
+            "mac",
+            "linux",
+            "cli",
+            "package-manager"
+        ],
+        "notes": []
     }
 ]
