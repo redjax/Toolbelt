@@ -26,6 +26,8 @@ def configure_logging(level: str = "INFO"):
 
 
 def main(log_level: str = "INFO"):
+    configure_logging(log_level)
+
     tools_manager: ToolsFileManager = ToolsFileManager(TOOLS_JSON)
 
     if not tools_manager.exists():
