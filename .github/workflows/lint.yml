@@ -3,11 +3,11 @@ name: Lint & format code
 
 on:
   workflow_dispatch:
-  pull_request:
-    branches:
-      - main
-    paths:
-      - ".repo/apps/toolbelt/**"
+  # pull_request:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - ".repo/apps/toolbelt/**"
 
 jobs:
   lint:
