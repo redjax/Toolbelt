@@ -578,6 +578,31 @@
         "notes": []
     },
     {
+        "name": "Homebrew",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://brew.sh"
+            },
+            {
+                "name": "docs",
+                "url": "https://docs.brew.sh/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/Homebrew/brew"
+            }
+        ],
+        "description": "The missing package manager for macOS (also works on Linux).",
+        "tags": [
+            "mac",
+            "linux",
+            "cli",
+            "package-manager"
+        ],
+        "notes": []
+    },
+    {
         "name": "hoppscotch",
         "urls": [
             {
@@ -868,6 +893,31 @@
         "notes": []
     },
     {
+        "name": "Playnite",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://playnite.link"
+            },
+            {
+                "name": "docs",
+                "url": "https://api.playnite.link/docs/manual/gettingStarted/gettingStartedOverview.html"
+            },
+            {
+                "name": "addons",
+                "url": "https://playnite.link/addons.html"
+            }
+        ],
+        "description": "Open source video game library manager that integrates with many storefronts.",
+        "tags": [
+            "games",
+            "windows",
+            "mac",
+            "linux"
+        ],
+        "notes": []
+    },
+    {
         "name": "Powertoys",
         "urls": [
             {
@@ -928,6 +978,30 @@
             {
                 "name": "docs",
                 "url": "https://github.com/pyenv/pyenv?tab=readme-ov-file#table-of-contents"
+            }
+        ],
+        "description": "Simple Python version management. Allows you to easily switch between multiple versions of Python. Can be used to manage multiple versions of Python on a per-project basis.",
+        "tags": [
+            "linux",
+            "mac",
+            "windows",
+            "cli",
+            "dev",
+            "python",
+            "version-manager"
+        ],
+        "notes": []
+    },
+    {
+        "name": "Pyenv",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://github.com/pyenv/pyenv"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/pyenv/pyenv"
             }
         ],
         "description": "Simple Python version management. Allows you to easily switch between multiple versions of Python. Can be used to manage multiple versions of Python on a per-project basis.",
@@ -1322,26 +1396,6 @@
         "notes": []
     },
     {
-        "name": "Waterfox browser",
-        "urls": [
-            {"name": "home", "url": "https://www.waterfox.net"},
-            {
-                "name": "github",
-                "url": "https://github.com/BrowserWorks/Waterfox"
-            }
-        ],
-        "description": "A web browser based on Mozilla Firefox, focusing on privacy and user choice.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "android",
-            "ios",
-            "browser"
-        ],
-        "notes": []
-    },
-    {
         "name": "uv",
         "urls": [
             {
@@ -1414,6 +1468,29 @@
             "cli",
             "dev",
             "python"
+        ],
+        "notes": []
+    },
+    {
+        "name": "Waterfox browser",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://www.waterfox.net"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/BrowserWorks/Waterfox"
+            }
+        ],
+        "description": "A web browser based on Mozilla Firefox, focusing on privacy and user choice.",
+        "tags": [
+            "linux",
+            "mac",
+            "windows",
+            "android",
+            "ios",
+            "browser"
         ],
         "notes": []
     },
@@ -1519,22 +1596,6 @@
         "notes": []
     },
     {
-        "name": "Zen browser",
-        "urls": [
-            {"name": "home", "url": "https://github.com/zen-browser"},
-            {"name": "github", "url": "https://github.com/zen-browser/desktop"}
-        ],
-        "description": "A privacy-focused web browser built on Chromium, designed to provide a fast and secure browsing experience.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "browser",
-            "privacy"
-        ],
-        "notes": []
-    },
-    {
         "name": "zellij",
         "urls": [
             {
@@ -1562,76 +1623,24 @@
         "notes": []
     },
     {
-        "name": "Playnite",
+        "name": "Zen browser",
         "urls": [
             {
                 "name": "home",
-                "url": "https://playnite.link"
-            },
-            {
-                "name": "docs",
-                "url": "https://api.playnite.link/docs/manual/gettingStarted/gettingStartedOverview.html"
-            },
-            {
-                "name": "addons",
-                "url": "https://playnite.link/addons.html"
-            }
-        ],
-        "description": "Open source video game library manager that integrates with many storefronts.",
-        "tags": [
-            "games",
-            "windows",
-            "mac",
-            "linux"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Homebrew",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://brew.sh"
-            },
-            {
-                "name": "docs",
-                "url": "https://docs.brew.sh/"
+                "url": "https://github.com/zen-browser"
             },
             {
                 "name": "github",
-                "url": "https://github.com/Homebrew/brew"
+                "url": "https://github.com/zen-browser/desktop"
             }
         ],
-        "description": "The missing package manager for macOS (also works on Linux).",
-        "tags": [
-            "mac",
-            "linux",
-            "cli",
-            "package-manager"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Pyenv",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://github.com/pyenv/pyenv"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/pyenv/pyenv"
-            }
-        ],
-        "description": "Simple Python version management. Allows you to easily switch between multiple versions of Python. Can be used to manage multiple versions of Python on a per-project basis.",
+        "description": "A privacy-focused web browser built on Chromium, designed to provide a fast and secure browsing experience.",
         "tags": [
             "linux",
             "mac",
             "windows",
-            "cli",
-            "dev",
-            "python",
-            "version-manager"
+            "browser",
+            "privacy"
         ],
         "notes": []
     }
