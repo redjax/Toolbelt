@@ -965,6 +965,31 @@
         "notes": []
     },
     {
+        "name": "Yazi",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://yazi-rs.github.io/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/sxyazi/yazi"
+            },
+            {
+                "name": "docs",
+                "url": "https://yazi-rs.github.io/docs/installation"
+            }
+        ],
+        "description": "",
+        "tags": [
+            "linux",
+            "mac",
+            "windows",
+            "cli",
+            "file-explorer"
+        ]
+    },
+    {
         "name": "pyenv",
         "urls": [
             {
