@@ -68,7 +68,7 @@ Tools I've found useful, with a bias towards FOSS (free, open-source software).
 | [WinSCP](https://winscp.net/eng/index.php) | A popular free SFTP and FTP client for Windows, a powerful file manager that will improve your productivity. | [docs](https://winscp.net/eng/docs/start), [github](https://github.com/winscp/winscp) |
 | [WizTree](https://www.diskanalyzer.com) | WizTree is a disk space analyzer tool for Windows that scans your hard drive and displays the files and folders that are taking up the most space. | [docs](https://www.diskanalyzer.com/guide) |
 | [xenon](https://xenon.readthedocs.io/en/latest/) | A Python tool that checks code complexity against defined thresholds. It can check Cyclomatic Complexity, Maintainability Index, and raw metrics like lines of code. | [github](https://github.com/rubik/xenon), [docs](https://xenon.readthedocs.io/en/latest/) |
-| [Yazi](https://yazi-rs.github.io/) |  | [github](https://github.com/sxyazi/yazi), [docs](https://yazi-rs.github.io/docs/installation) |
+| [Yazi](https://yazi-rs.github.io/) | A really fast terminal file browser. | [github](https://github.com/sxyazi/yazi), [docs](https://yazi-rs.github.io/docs/installation) |
 | [zellij](https://zellij.dev) | A terminal workspace with batteries included. A terminal multiplexer and more. | [github](https://github.com/zellij-org/zellij), [docs](https://zellij.dev/documentation/) |
 | [Zen browser](https://github.com/zen-browser) | A privacy-focused web browser built on Chromium, designed to provide a fast and secure browsing experience. | [github](https://github.com/zen-browser/desktop) |
 
