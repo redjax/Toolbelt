@@ -28,30 +28,6 @@
         "notes": []
     },
     {
-        "name": "btop",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://github.com/aristocratos/btop"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/aristocratos/btop"
-            },
-            {
-                "name": "docs",
-                "url": "https://github.com/aristocratos/btop#documents"
-            }
-        ],
-        "description": "Btop is a terminal resource monitor like `htop`, but it's faster & nicer to use.",
-        "tags": [
-            "linux",
-            "cli",
-            "monitoring"
-        ],
-        "notes": []
-    },
-    {
         "name": "BCUninstaller",
         "urls": [
             {
@@ -125,6 +101,30 @@
             "security",
             "password-manager",
             "mfa"
+        ],
+        "notes": []
+    },
+    {
+        "name": "btop",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://github.com/aristocratos/btop"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/aristocratos/btop"
+            },
+            {
+                "name": "docs",
+                "url": "https://github.com/aristocratos/btop#documents"
+            }
+        ],
+        "description": "Btop is a terminal resource monitor like `htop`, but it's faster & nicer to use.",
+        "tags": [
+            "linux",
+            "cli",
+            "monitoring"
         ],
         "notes": []
     },
