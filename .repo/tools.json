@@ -873,46 +873,31 @@
         "name": "Playnite",
         "urls": [
             {
-                "name": "home",
-                "url": "https://playnite.link"
-            },
-            {
                 "name": "github",
                 "url": "https://github.com/JosefNemec/Playnite"
             },
             {
                 "name": "docs",
                 "url": "https://playnite.link/docs/"
-            }
-        ],
-        "description": "An open source video game library manager with support for 3rd party libraries like Steam, GOG, Origin, Uplay, Epic and more.",
-        "tags": [
-            "windows",
-            "games"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Playnite",
-        "urls": [
+            },
             {
-                "name": "home",
-                "url": "https://playnite.link"
+                "name": "addons",
+                "url": "https://playnite.link/addons.html"
             },
             {
                 "name": "docs",
                 "url": "https://api.playnite.link/docs/manual/gettingStarted/gettingStartedOverview.html"
             },
             {
-                "name": "addons",
-                "url": "https://playnite.link/addons.html"
+                "name": "home",
+                "url": "https://playnite.link"
             }
         ],
-        "description": "Open source video game library manager that integrates with many storefronts.",
+        "description": "An open source video game library manager with support for 3rd party libraries like Steam, GOG, Origin, Uplay, Epic and more.",
         "tags": [
-            "games",
             "windows",
             "mac",
+            "games",
             "linux"
         ],
         "notes": []
@@ -963,31 +948,6 @@
             "git"
         ],
         "notes": []
-    },
-    {
-        "name": "Yazi",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://yazi-rs.github.io/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/sxyazi/yazi"
-            },
-            {
-                "name": "docs",
-                "url": "https://yazi-rs.github.io/docs/installation"
-            }
-        ],
-        "description": "",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "file-explorer"
-        ]
     },
     {
         "name": "pyenv",
@@ -1619,6 +1579,31 @@
             "python"
         ],
         "notes": []
+    },
+    {
+        "name": "Yazi",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://yazi-rs.github.io/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/sxyazi/yazi"
+            },
+            {
+                "name": "docs",
+                "url": "https://yazi-rs.github.io/docs/installation"
+            }
+        ],
+        "description": "",
+        "tags": [
+            "linux",
+            "mac",
+            "windows",
+            "cli",
+            "file-explorer"
+        ]
     },
     {
         "name": "zellij",
