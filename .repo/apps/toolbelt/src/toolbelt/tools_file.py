@@ -131,11 +131,14 @@ class ToolsFileManager:
         merged = {}
         for obj in self.data:
             name = obj["name"]
-            if name not in merged:
+            # Use lowercase name as the key for case-insensitive comparison
+            name_key = name.lower()
+            
+            if name_key not in merged:
                 ## Make a copy so we don't modify the original list
-                merged[name] = copy.deepcopy(obj)
+                merged[name_key] = copy.deepcopy(obj)
             else:
-                m = merged[name]
+                m = merged[name_key]
 
                 ## Combine and deduplicate 'urls', 'tags', and 'notes'
                 m["urls"] = list(
@@ -153,6 +156,20 @@ class ToolsFileManager:
                 desc2 = obj.get("description", "")
 
                 m["description"] = desc1 if len(desc1) >= len(desc2) else desc2
+                
+                ## Keep the name with better capitalization (prefer proper case over all lowercase)
+                current_name = m.get("name", "")
+                new_name = obj.get("name", "")
+                
+                # Prefer names that aren't all lowercase, or if both have same case style, prefer the one with more details
+                if current_name.islower() and not new_name.islower():
+                    m["name"] = new_name
+                elif not current_name.islower() and new_name.islower():
+                    # Keep current name (it has better capitalization)
+                    pass
+                elif len(obj.get("description", "")) > len(m.get("description", "")):
+                    # If same case style, prefer the one with longer description and take its name
+                    m["name"] = new_name
 
         ## Replace original data with the deduped and merged list
         self.data = list(merged.values())
