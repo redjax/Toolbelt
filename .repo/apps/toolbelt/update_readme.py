@@ -43,9 +43,12 @@ def main(log_level: str = "INFO"):
         log.warning("tools.json is empty. Nothing to update.")
         return
 
+    log.info("Deduplicating tools...")
+    tools_manager.dedupe()
+
     tools_manager.sort()
 
-    log.info(f"Saving sorted tools back to {TOOLS_JSON}")
+    log.info(f"Saving sorted and deduplicated tools back to {TOOLS_JSON}")
     try:
         tools_manager.save()
     except Exception as e:
