@@ -1596,7 +1596,7 @@
                 "url": "https://yazi-rs.github.io/docs/installation"
             }
         ],
-        "description": "",
+        "description": "A really fast terminal file browser.",
         "tags": [
             "linux",
             "mac",
