@@ -196,7 +196,7 @@
                 "url": "https://pypi.org/project/cookiecutter"
             }
         ],
-        "description": "Dotfile manager written in Go. Uses Go templates to render files per-machine. Backups & restores to a Git repository.",
+        "description": "An open source library for building coding project templates.",
         "tags": [
             "linux",
             "mac",
