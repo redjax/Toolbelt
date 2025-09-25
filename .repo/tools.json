@@ -1774,7 +1774,10 @@
             "windows",
             "mac",
             "dev",
-            "scanner"
+            "scanner",
+            "cli",
+            "security",
+            "networking"
         ],
         "notes": []
     }
