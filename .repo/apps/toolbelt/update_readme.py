@@ -1,9 +1,8 @@
+from __future__ import annotations
+
 import logging
 
-from toolbelt import README_FILE, TOOLS_JSON
-from toolbelt import ReadmeTableManager, ToolsFileManager
-from toolbelt import Tool
-
+from toolbelt import README_FILE, TOOLS_JSON, ReadmeTableManager, Tool, ToolsFileManager
 
 log = logging.getLogger(__name__)
 
