@@ -1,27 +1,5 @@
 [
     {
-        "name": "Gitnuro",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://gitnuro.com"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/JetpackDuba/Gitnuro"
-            }
-        ],
-        "description": "A FOSS Git multiplatform client for newbies and pros.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "git",
-            "version-control"
-        ],
-        "notes": []
-    },
-    {
         "name": "Aqua",
         "urls": [
             {
@@ -573,6 +551,28 @@
         "notes": []
     },
     {
+        "name": "Gitnuro",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://gitnuro.com"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/JetpackDuba/Gitnuro"
+            }
+        ],
+        "description": "A FOSS Git multiplatform client for newbies and pros.",
+        "tags": [
+            "linux",
+            "mac",
+            "windows",
+            "git",
+            "version-control"
+        ],
+        "notes": []
+    },
+    {
         "name": "GParted",
         "urls": [
             {
@@ -706,6 +706,30 @@
         "notes": []
     },
     {
+        "name": "JSON Crack",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://jsoncrack.com/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/AykutSarac/jsoncrack.com"
+            },
+            {
+                "name": "docs",
+                "url": "https://jsoncrack.com/docs"
+            }
+        ],
+        "description": "JSON Crack is a web-based tool for visualizing and analyzing JSON data structures. Original work published under the Apache License 2.0.",
+        "tags": [
+            "linux",
+            "dev",
+            "json"
+        ],
+        "notes": []
+    },
+    {
         "name": "LazyGit",
         "urls": [
             {
@@ -742,6 +766,30 @@
             "tui",
             "version-control",
             "git"
+        ],
+        "notes": []
+    },
+    {
+        "name": "Llama.cpp",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://github.com/ggml-org/llama.cpp"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/ggml-org/llama.cpp"
+            }
+        ],
+        "description": "Llama.cpp is the C++ engine behind many local LLM applications. Can run as a server, and can be built with many other features such as imtarix quauntization! Imatrix quantization allows a quantized model to remain performant on a dataset you define during the quantization process.",
+        "tags": [
+            "linux",
+            "windows",
+            "mac",
+            "cli",
+            "llm",
+            "dev",
+            "quantization"
         ],
         "notes": []
     },
@@ -826,6 +874,63 @@
             "dev",
             "vim",
             "tui"
+        ],
+        "notes": []
+    },
+    {
+        "name": "Nmap",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://nmap.org/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/nmap/nmap"
+            },
+            {
+                "name": "docs",
+                "url": "https://nmap.org/docs/"
+            }
+        ],
+        "description": "Nmap is a powerful open source network scanning tool used for network discovery and security auditing. Scan responsibly!",
+        "tags": [
+            "linux",
+            "windows",
+            "mac",
+            "dev",
+            "scanner",
+            "cli",
+            "security",
+            "networking"
+        ],
+        "notes": []
+    },
+    {
+        "name": "Ollama",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://ollama.com/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/ollama/ollama"
+            },
+            {
+                "name": "docs",
+                "url": "https://docs.ollama.com/"
+            }
+        ],
+        "description": "Ollama is a tool for managing and deploying open source GGUF machine learning models, now with a native chat GUI!",
+        "tags": [
+            "linux",
+            "windows",
+            "mac",
+            "cli",
+            "gui",
+            "llm",
+            "dev"
         ],
         "notes": []
     },
@@ -1456,6 +1561,32 @@
         "notes": []
     },
     {
+        "name": "VSCode",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://code.visualstudio.com/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/microsoft/vscode"
+            },
+            {
+                "name": "docs",
+                "url": "https://code.visualstudio.com/docs"
+            }
+        ],
+        "description": "The winner of the IDE wars! VSCode is a powerful, light weight, and popular open source code editor developed by Microsoft.",
+        "tags": [
+            "linux",
+            "windows",
+            "mac",
+            "dev",
+            "editor"
+        ],
+        "notes": []
+    },
+    {
         "name": "vulture",
         "urls": [
             {
@@ -1673,137 +1804,6 @@
             "privacy",
             "mac",
             "windows"
-        ],
-        "notes": []
-    },
-    {
-        "name": "JSON Crack",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://jsoncrack.com/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/AykutSarac/jsoncrack.com"
-            },
-            {
-                "name": "docs",
-                "url": "https://jsoncrack.com/docs"
-            }
-        ],
-        "description": "JSON Crack is a web-based tool for visualizing and analyzing JSON data structures. Original work published under the Apache License 2.0.",
-        "tags": [
-            "linux",
-            "dev",
-            "json"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Ollama",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://ollama.com/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/ollama/ollama"
-            },
-            {
-                "name": "docs",
-                "url": "https://docs.ollama.com/"
-            }
-        ],
-        "description": "Ollama is a tool for managing and deploying open source GGUF machine learning models, now with a native chat GUI!",
-        "tags": [
-            "linux",
-            "windows",
-            "mac",
-            "cli",
-            "gui",
-            "llm",
-            "dev"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Llama.cpp",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://github.com/ggml-org/llama.cpp"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/ggml-org/llama.cpp"
-            }
-        ],
-        "description": "Llama.cpp is the C++ engine behind many local LLM applications. Can run as a server, and can be built with many other features such as imtarix quauntization! Imatrix quantization allows a quantized model to remain performant on a dataset you define during the quantization process.",
-        "tags": [
-            "linux",
-            "windows",
-            "mac",
-            "cli",
-            "llm",
-            "dev",
-            "quantization"
-        ],
-        "notes": []
-    },
-    {
-        "name": "VSCode",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://code.visualstudio.com/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/microsoft/vscode"
-            },
-            {
-                "name": "docs",
-                "url": "https://code.visualstudio.com/docs"
-            }
-        ],
-        "description": "The winner of the IDE wars! VSCode is a powerful, light weight, and popular open source code editor developed by Microsoft.",
-        "tags": [
-            "linux",
-            "windows",
-            "mac",
-            "dev",
-            "editor"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Nmap",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://nmap.org/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/nmap/nmap"
-            },
-            {
-                "name": "docs",
-                "url": "https://nmap.org/docs/"
-            }
-        ],
-        "description": "Nmap is a powerful open source network scanning tool used for network discovery and security auditing. Scan responsibly!",
-        "tags": [
-            "linux",
-            "windows",
-            "mac",
-            "dev",
-            "scanner",
-            "cli",
-            "security",
-            "networking"
         ],
         "notes": []
     }
