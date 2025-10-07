@@ -1732,6 +1732,10 @@
         "name": "Llama.cpp",
         "urls": [
             {
+                "name": "home",
+                "url": "https://github.com/ggml-org/llama.cpp"
+            },
+            {
                 "name": "github",
                 "url": "https://github.com/ggml-org/llama.cpp"
             }
