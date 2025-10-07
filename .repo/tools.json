@@ -1,5 +1,27 @@
 [
     {
+        "name": "Gitnuro",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://gitnuro.com"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/JetpackDuba/Gitnuro"
+            }
+        ],
+        "description": "A FOSS Git multiplatform client for newbies and pros.",
+        "tags": [
+            "linux",
+            "mac",
+            "windows",
+            "git",
+            "version-control"
+        ],
+        "notes": []
+    },
+    {
         "name": "Aqua",
         "urls": [
             {
