@@ -1,1810 +1,1466 @@
 [
-    {
-        "name": "Aqua",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://aquaproj.github.io/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/aquaproj/aqua"
-            },
-            {
-                "name": "docs",
-                "url": "https://aquaproj.github.io/docs/"
-            }
-        ],
-        "description": "Aqua is a CLI tool that manages your developer tools and ensures consistent versions across your projects. It supports multiple languages and package managers.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "dev",
-            "automation",
-            "version-manager"
-        ],
-        "notes": []
-    },
-    {
-        "name": "BCUninstaller",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://www.bcuninstaller.com"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller"
-            },
-            {
-                "name": "docs",
-                "url": "https://htmlpreview.github.io/?https://github.com/Klocman/Bulk-Crap-Uninstaller/blob/master/doc/BCU_manual.html"
-            }
-        ],
-        "description": "A free and open-source program uninstaller for Windows with many features and options to make uninstalling unwanted software as easy and fast as possible.",
-        "tags": [
-            "windows",
-            "productivity",
-            "uninstaller"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Bitwarden",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://bitwarden.com"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/bitwarden/"
-            },
-            {
-                "name": "docs",
-                "url": "https://bitwarden.com/help/"
-            }
-        ],
-        "description": "Bitwarden is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "android",
-            "ios",
-            "security",
-            "password-manager",
-            "mfa"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Bitwarden CLI",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://bitwarden.com/help/cli/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/bitwarden/cli"
-            }
-        ],
-        "description": "The Bitwarden CLI is a command-line interface for managing your Bitwarden vault. It allows you to perform various operations such as adding, retrieving, and deleting items in your vault.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "security",
-            "password-manager",
-            "mfa"
-        ],
-        "notes": []
-    },
-    {
-        "name": "btop",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://github.com/aristocratos/btop"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/aristocratos/btop"
-            },
-            {
-                "name": "docs",
-                "url": "https://github.com/aristocratos/btop#documents"
-            }
-        ],
-        "description": "Btop is a terminal resource monitor like `htop`, but it's faster & nicer to use.",
-        "tags": [
-            "linux",
-            "cli",
-            "monitoring"
-        ],
-        "notes": []
-    },
-    {
-        "name": "chezmoi",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://www.chezmoi.io"
-            },
-            {
-                "name": "docs",
-                "url": "https://www.chezmoi.io/user-guide/command-overview/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/twpayne/chezmoi"
-            }
-        ],
-        "description": "Dotfile manager written in Go. Uses Go templates to render files per-machine. Backups & restores to a Git repository.",
-        "tags": [
-            "linux",
-            "mac",
-            "dotfiles",
-            "cli"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Clonezilla",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://clonezilla.org"
-            },
-            {
-                "name": "docs",
-                "url": "https://clonezilla.org/clonezilla-live.php"
-            }
-        ],
-        "description": "A partition and disk imaging/cloning program similar to True Image or Norton Ghost. It helps you to do system deployment, bare metal backup and recovery.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "disk-imaging",
-            "backup"
-        ],
-        "notes": []
-    },
-    {
-        "name": "cookiecutter",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://github.com/cookiecutter/cookiecutter"
-            },
-            {
-                "name": "docs",
-                "url": "https://cookiecutter.readthedocs.io/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/cookiecutter/cookiecutter"
-            },
-            {
-                "name": "pypi",
-                "url": "https://pypi.org/project/cookiecutter"
-            }
-        ],
-        "description": "An open source library for building coding project templates.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "automation",
-            "templating",
-            "dev"
-        ],
-        "notes": []
-    },
-    {
-        "name": "cyberduck",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://cyberduck.io"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/iterate-ch/cyberduck"
-            },
-            {
-                "name": "docs",
-                "url": "https://docs.cyberduck.io"
-            }
-        ],
-        "description": "A libre server and cloud storage browser for Mac and Windows with support for FTP, SFTP, WebDAV, S3, Azure & OpenStack Swift.",
-        "tags": [
-            "windows",
-            "mac",
-            "file-transfer",
-            "sftp",
-            "ftp",
-            "scp"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Dagger",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://dagger.io"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/dagger/dagger"
-            },
-            {
-                "name": "docs",
-                "url": "https://docs.dagger.io"
-            }
-        ],
-        "description": "Dagger is a programmable CI/CD engine that lets you define and run pipelines as code using a unified API across any language, framework, or cloud.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "dev",
-            "automation",
-            "ci",
-            "containers"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Devolutions Remote Desktop Manager",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://devolutions.net/remote-desktop-manager/"
-            },
-            {
-                "name": "docs",
-                "url": "https://docs.devolutions.net/rdm/overview/what-is-rdm/"
-            }
-        ],
-        "description": "Remote Desktop Manager (RDM) centralizes all your remote connections, passwords and credentials into a unique platform that can be securely shared between users and across the entire team.",
-        "tags": [
-            "windows",
-            "mac",
-            "linux",
-            "productivity",
-            "remote-desktop",
-            "ssh",
-            "rdp"
-        ],
-        "notes": []
-    },
-    {
-        "name": "devpod",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://devpod.sh"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/loft-sh/devpod"
-            },
-            {
-                "name": "docs",
-                "url": "https://devpod.sh/docs/getting-started/installation/"
-            }
-        ],
-        "description": "Like Github codespaces, but open source, client-only, and unopinionated. Works with any IDE and lets you use any cloud, Kubernetes, or localhost Docker.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "dev",
-            "containers",
-            "kubernetes",
-            "docker"
-        ],
-        "notes": []
-    },
-    {
-        "name": "direnv",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://direnv.net"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/direnv/direnv"
-            },
-            {
-                "name": "docs",
-                "url": "https://direnv.net/#docs"
-            }
-        ],
-        "description": "Dotfile manager written in Go. Uses Go templates to render files per-machine. Backups & restores to a Git repository.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "ci",
-            "cli",
-            "dev",
-            "automation"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Ente Auth",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://ente.io/auth/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/ente-io/ente"
-            }
-        ],
-        "description": "Ente Auth is an open-source identity and access management solution that provides secure authentication and authorization for applications and services.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "android",
-            "ios",
-            "authentication",
-            "security",
-            "mfa"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Fail2Ban",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://www.fail2ban.org"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/fail2ban/fail2ban"
-            },
-            {
-                "name": "docs",
-                "url": "https://www.fail2ban.org/wiki/index.php/Main_Page"
-            }
-        ],
-        "description": "Intrusion prevention software framework that protects computer servers from brute-force attacks.",
-        "tags": [
-            "linux",
-            "mac",
-            "security",
-            "cli",
-            "automation",
-            "firewall"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Flow Launcher",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://flowlauncher.com"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/Flow-Launcher/Flow.Launcher"
-            }
-        ],
-        "description": "An open source, Windows application launcher that helps you access programs and files quickly. It supports plugins to extend its functionality.",
-        "tags": [
-            "windows",
-            "productivity",
-            "launcher"
-        ],
-        "notes": []
-    },
-    {
-        "name": "fzf",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://junegunn.github.io/fzf/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/junegunn/fzf"
-            },
-            {
-                "name": "docs",
-                "url": "https://junegunn.github.io/fzf/getting-started/"
-            }
-        ],
-        "description": "A general-purpose command-line fuzzy finder. It can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "search",
-            "productivity"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Ghostty",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://ghostty.org"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/ghostty-org/ghostty"
-            },
-            {
-                "name": "docs",
-                "url": "https://ghostty.org/docs"
-            }
-        ],
-        "description": "A web-based terminal emulator that allows you to access your terminal from any device with a web browser.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "terminal",
-            "ssh",
-            "webui"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Gickup",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://gickup.dev"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/cooperspencer/gickup"
-            },
-            {
-                "name": "docs",
-                "url": "https://gickup.dev/category/configuration"
-            }
-        ],
-        "description": "A simple, fast, and secure backup tool that uses Git as the backend. It can back up files and directories to a local or remote Git repository.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "backup",
-            "automation",
-            "git"
-        ],
-        "notes": []
-    },
-    {
-        "name": "git",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://git-scm.com"
-            },
-            {
-                "name": "docs",
-                "url": "https://git-scm.com/doc"
-            },
-            {
-                "name": "downloads",
-                "url": "https://git-scm.com/downloads"
-            }
-        ],
-        "description": "Git needs no introduction!",
-        "tags": [
-            "windows",
-            "mac",
-            "linux",
-            "cli",
-            "version-control",
-            "git"
-        ],
-        "notes": []
-    },
-    {
-        "name": "gitextensions",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://gitextensions.github.io/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/gitextensions/gitextensions"
-            },
-            {
-                "name": "docs",
-                "url": "https://git-extensions-documentation.readthedocs.io"
-            }
-        ],
-        "description": "A graphical user interface for Git that allows you to manage your repositories, visualize your commit history, and perform common Git operations.",
-        "tags": [
-            "windows",
-            "git",
-            "version-control"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Gitnuro",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://gitnuro.com"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/JetpackDuba/Gitnuro"
-            }
-        ],
-        "description": "A FOSS Git multiplatform client for newbies and pros.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "git",
-            "version-control"
-        ],
-        "notes": []
-    },
-    {
-        "name": "GParted",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://gparted.org"
-            },
-            {
-                "name": "docs",
-                "url": "https://gparted.org/display-doc.php?name=help-manual"
-            }
-        ],
-        "description": "A free partition editor for graphically managing your disk partitions. With GParted you can resize, copy, and move partitions without data loss, enabling you to grow or shrink your C: drive, create space for new operating systems, and attempt data rescue from lost partitions.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "disk-management",
-            "liveusb"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Helix",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://helix-editor.com"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/helix-editor/helix"
-            },
-            {
-                "name": "docs",
-                "url": "https://docs.helix-editor.com/"
-            }
-        ],
-        "description": "A post-modern text editor, built on a solid and efficient core, with a strong focus on performance and ergonomics.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "editor",
-            "dev",
-            "tui"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Homebrew",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://brew.sh"
-            },
-            {
-                "name": "docs",
-                "url": "https://docs.brew.sh/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/Homebrew/brew"
-            }
-        ],
-        "description": "The missing package manager for macOS (also works on Linux).",
-        "tags": [
-            "mac",
-            "linux",
-            "cli",
-            "package-manager"
-        ],
-        "notes": []
-    },
-    {
-        "name": "hoppscotch",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://hoppscotch.ioO"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/hoppscotch/hoppscotch"
-            },
-            {
-                "name": "docs",
-                "url": "https://docs.hoppscotch.io/documentation"
-            }
-        ],
-        "description": "Open-source, self-hostable API development ecosystem. An alternative to Postman",
-        "tags": [
-            "windows",
-            "mac",
-            "linux",
-            "cli",
-            "webui",
-            "api",
-            "dev",
-            "selfhost"
-        ],
-        "notes": []
-    },
-    {
-        "name": "HTTPie",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://httpie.io"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/httpie"
-            },
-            {
-                "name": "docs",
-                "url": "https://httpie.io/docs"
-            }
-        ],
-        "description": "Open-source API development ecosystem. An alternative to Postman",
-        "tags": [
-            "windows",
-            "mac",
-            "linux",
-            "cli",
-            "tui",
-            "api",
-            "dev"
-        ],
-        "notes": []
-    },
-    {
-        "name": "JSON Crack",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://jsoncrack.com/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/AykutSarac/jsoncrack.com"
-            },
-            {
-                "name": "docs",
-                "url": "https://jsoncrack.com/docs"
-            }
-        ],
-        "description": "JSON Crack is a web-based tool for visualizing and analyzing JSON data structures. Original work published under the Apache License 2.0.",
-        "tags": [
-            "linux",
-            "dev",
-            "json"
-        ],
-        "notes": []
-    },
-    {
-        "name": "LazyGit",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://github.com/jesseduffield/lazygit"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/jesseduffield/lazygit"
-            },
-            {
-                "name": "tutorials",
-                "url": "https://github.com/jesseduffield/lazygit#tutorials"
-            },
-            {
-                "name": "installation",
-                "url": "https://github.com/jesseduffield/lazygit#installation"
-            },
-            {
-                "name": "usage",
-                "url": "https://github.com/jesseduffield/lazygit#usage"
-            },
-            {
-                "name": "configuration",
-                "url": "https://github.com/jesseduffield/lazygit#configuration"
-            }
-        ],
-        "description": "Terminal UI for interacting with Git repositories.",
-        "tags": [
-            "linux",
-            "windows",
-            "mac",
-            "cli",
-            "tui",
-            "version-control",
-            "git"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Llama.cpp",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://github.com/ggml-org/llama.cpp"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/ggml-org/llama.cpp"
-            }
-        ],
-        "description": "Llama.cpp is the C++ engine behind many local LLM applications. Can run as a server, and can be built with many other features such as imtarix quauntization! Imatrix quantization allows a quantized model to remain performant on a dataset you define during the quantization process.",
-        "tags": [
-            "linux",
-            "windows",
-            "mac",
-            "cli",
-            "llm",
-            "dev",
-            "quantization"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Meld",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://meldmerge.org"
-            },
-            {
-                "name": "gitlab",
-                "url": "https://gitlab.gnome.org/GNOME/meld"
-            },
-            {
-                "name": "docs",
-                "url": "https://gitlab.gnome.org/GNOME/meld/wikis/home"
-            }
-        ],
-        "description": "A visual diff and merge tool that helps you compare files, directories, and version controlled projects.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "diff",
-            "merge",
-            "git",
-            "dev"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Neovide",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://neovide.dev"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/neovide/neovide"
-            },
-            {
-                "name": "docs",
-                "url": "https://neovide.dev/configuration.html"
-            }
-        ],
-        "description": "A simple, no-nonsense, cross-platform GUI for Neovim.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "editor",
-            "dev",
-            "vim"
-        ],
-        "notes": []
-    },
-    {
-        "name": "neovim",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://neovim.io"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/neovim/neovim"
-            },
-            {
-                "name": "docs",
-                "url": "https://neovim.io/doc/"
-            }
-        ],
-        "description": "Neovim is a hyperextensible Vim-based text editor. It seeks to improve upon Vim by providing better defaults, a more modern codebase, and a robust plugin architecture.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "editor",
-            "dev",
-            "vim",
-            "tui"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Nmap",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://nmap.org/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/nmap/nmap"
-            },
-            {
-                "name": "docs",
-                "url": "https://nmap.org/docs/"
-            }
-        ],
-        "description": "Nmap is a powerful open source network scanning tool used for network discovery and security auditing. Scan responsibly!",
-        "tags": [
-            "linux",
-            "windows",
-            "mac",
-            "dev",
-            "scanner",
-            "cli",
-            "security",
-            "networking"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Ollama",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://ollama.com/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/ollama/ollama"
-            },
-            {
-                "name": "docs",
-                "url": "https://docs.ollama.com/"
-            }
-        ],
-        "description": "Ollama is a tool for managing and deploying open source GGUF machine learning models, now with a native chat GUI!",
-        "tags": [
-            "linux",
-            "windows",
-            "mac",
-            "cli",
-            "gui",
-            "llm",
-            "dev"
-        ],
-        "notes": []
-    },
-    {
-        "name": "OpenTofu",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://opentofu.org"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/opentofu/opentofu"
-            },
-            {
-                "name": "docs",
-                "url": "https://opentofu.org/docs/"
-            },
-            {
-                "name": "registry",
-                "url": "https://github.com/opentofu/registry"
-            }
-        ],
-        "description": "OpenTofu is a community-driven, open-source infrastructure as code (IaC) tool that enables users to define, provision, and manage cloud infrastructure using a declarative configuration language.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "devops",
-            "iac",
-            "automation"
-        ],
-        "notes": []
-    },
-    {
-        "name": "osv-scanner",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://osv.dev"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/google/osv-scanner"
-            },
-            {
-                "name": "docs",
-                "url": "https://osv.dev/docs/"
-            }
-        ],
-        "description": "A tool that scans your project dependencies for known vulnerabilities using the OSV database.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "dev",
-            "security"
-        ],
-        "notes": []
-    },
-    {
-        "name": "pipx",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://pipx.pypa.io/stable/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/pypa/pipx"
-            },
-            {
-                "name": "docs",
-                "url": "https://pipx.pypa.io/stable/docs/"
-            }
-        ],
-        "description": "Install and run Python applications in isolated environments.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "dev",
-            "python"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Playnite",
-        "urls": [
-            {
-                "name": "github",
-                "url": "https://github.com/JosefNemec/Playnite"
-            },
-            {
-                "name": "docs",
-                "url": "https://playnite.link/docs/"
-            },
-            {
-                "name": "addons",
-                "url": "https://playnite.link/addons.html"
-            },
-            {
-                "name": "docs",
-                "url": "https://api.playnite.link/docs/manual/gettingStarted/gettingStartedOverview.html"
-            },
-            {
-                "name": "home",
-                "url": "https://playnite.link"
-            }
-        ],
-        "description": "An open source video game library manager with support for 3rd party libraries like Steam, GOG, Origin, Uplay, Epic and more.",
-        "tags": [
-            "windows",
-            "mac",
-            "games",
-            "linux"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Powertoys",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://learn.microsoft.com/en-us/windows/powertoys/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/microsoft/PowerToys"
-            }
-        ],
-        "description": "A set of utilities for power users to tune and streamline their Windows experience for greater productivity.",
-        "tags": [
-            "windows",
-            "productivity"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Pre-commit",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://pre-commit.com"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/pre-commit/pre-commit"
-            },
-            {
-                "name": "docs",
-                "url": "https://pre-commit.com/#docs"
-            }
-        ],
-        "description": "A framework for managing and maintaining multi-language pre-commit hooks.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "dev",
-            "automation",
-            "git"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Pyenv",
-        "urls": [
-            {
-                "name": "github",
-                "url": "https://github.com/pyenv/pyenv"
-            },
-            {
-                "name": "home",
-                "url": "https://github.com/pyenv/pyenv"
-            },
-            {
-                "name": "docs",
-                "url": "https://github.com/pyenv/pyenv?tab=readme-ov-file#table-of-contents"
-            }
-        ],
-        "description": "Simple Python version management. Allows you to easily switch between multiple versions of Python. Can be used to manage multiple versions of Python on a per-project basis.",
-        "tags": [
-            "cli",
-            "python",
-            "linux",
-            "mac",
-            "windows",
-            "version-manager",
-            "dev"
-        ],
-        "notes": []
-    },
-    {
-        "name": "radon",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://radon.readthedocs.io/en/latest/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/rubik/radon"
-            },
-            {
-                "name": "docs",
-                "url": "https://radon.readthedocs.io/en/latest/"
-            }
-        ],
-        "description": "A Python tool that computes various metrics from the source code. It can compute Cyclomatic Complexity, Halstead metrics, Maintainability Index, and raw metrics like lines of code.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "dev",
-            "python"
-        ],
-        "notes": []
-    },
-    {
-        "name": "RClone",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://rclone.org"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/rclone/rclone"
-            },
-            {
-                "name": "docs",
-                "url": "https://rclone.org/install/"
-            }
-        ],
-        "description": "'rsync for cloud storage.' RClone lets you connect to many backends, like S3, Dropbox, Backblaze B2, Google Drive, Wasabi, etc, and sync to/from it like you would with rsync.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "automation",
-            "file-transfer"
-        ],
-        "notes": []
-    },
-    {
-        "name": "restic",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://restic.net"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/restic/restic"
-            },
-            {
-                "name": "docs",
-                "url": "https://restic.readthedocs.io/en/stable/"
-            }
-        ],
-        "description": "Fast, secure, efficient backup program. Supports many backends, including local disk, SFTP, AWS S3, Backblaze B2, Wasabi, Google Cloud Storage, Microsoft Azure Blob Storage, and more.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "backup",
-            "automation"
-        ],
-        "notes": []
-    },
-    {
-        "name": "resticprofile",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://creativeprojects.github.io/resticprofile/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/creativeprojects/resticprofile"
-            },
-            {
-                "name": "docs",
-                "url": "https://creativeprojects.github.io/resticprofile/configuration/index.html"
-            }
-        ],
-        "description": "A wrapper around restic to manage multiple backup profiles with different configurations. Uses a `~/.profile.yaml` file to define backup jobs.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "backup",
-            "automation"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Rio Term",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://rioterm.com"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/raphamorim/rio"
-            },
-            {
-                "name": "docs",
-                "url": "https://rioterm.com/docs/config"
-            }
-        ],
-        "description": "A modern SSH client and terminal emulator that simplifies remote server management with an intuitive interface and powerful features.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "terminal",
-            "ssh"
-        ],
-        "notes": []
-    },
-    {
-        "name": "ripgrep",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://github.com/BurntSushi/ripgrep"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/BurntSushi/ripgrep"
-            },
-            {
-                "name": "docs",
-                "url": "https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#documentation-quick-links"
-            }
-        ],
-        "description": "A line-oriented search tool that recursively searches your current directory for a regex pattern. Similar to grep, but faster.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "search"
-        ],
-        "notes": []
-    },
-    {
-        "name": "scoop",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://scoop.sh"
-            },
-            {
-                "name": "apps",
-                "url": "https://scoop.sh/#/apps"
-            },
-            {
-                "name": "buckets",
-                "url": "https://scoop.sh/#/buckets"
-            },
-            {
-                "name": "install-docs",
-                "url": "https://github.com/ScoopInstaller/Install#readme"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/ScoopInstaller/Scoop"
-            }
-        ],
-        "description": "CLI package manager for Windows. Installs all packages to a user-writeable path so backups are easy and admin privileges are not required.",
-        "tags": [
-            "windows",
-            "package_manager",
-            "cli"
-        ],
-        "notes": []
-    },
-    {
-        "name": "ShareX",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://getsharex.com"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/ShareX/ShareX"
-            }
-        ],
-        "description": "An open-source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from.",
-        "tags": [
-            "windows",
-            "productivity",
-            "screenshot",
-            "screen-recording"
-        ],
-        "notes": []
-    },
-    {
-        "name": "sourcegit",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://github.com/sourcegit-scm/sourcegit"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/sourcegit-scm/sourcegit"
-            },
-            {
-                "name": "docs",
-                "url": "https://github.com/sourcegit-scm/sourcegit?tab=readme-ov-file#how-to-use"
-            }
-        ],
-        "description": "A Git extension that allows you to manage your Git repositories with a simple and intuitive interface.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "git",
-            "version-control"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Starship",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://starship.rs"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/starship/starship"
-            },
-            {
-                "name": "docs",
-                "url": "https://starship.rs/guide/"
-            }
-        ],
-        "description": "The minimal, blazing-fast, and infinitely customizable prompt for any shell.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "shell",
-            "customization"
-        ],
-        "notes": []
-    },
-    {
-        "name": "termscp",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://termscp.veeso.dev/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/veeso/termscp"
-            },
-            {
-                "name": "docs",
-                "url": "https://termscp.veeso.dev/user-manual.html"
-            }
-        ],
-        "description": "A terminal file transfer client and file manager with a user-friendly TUI. Supports SFTP, FTP, FTPS, SCP, and local file operations.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "tui",
-            "file-transfer",
-            "sftp",
-            "ftp",
-            "scp"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Terraform",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://www.terraform.io"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/hashicorp/terraform"
-            },
-            {
-                "name": "docs",
-                "url": "https://www.terraform.io/docs/index.html"
-            },
-            {
-                "name": "registry",
-                "url": "https://registry.terraform.io/providers/integrations/github/latest/docs"
-            }
-        ],
-        "description": "Terraform is an open-source infrastructure as code software tool created by HashiCorp. It allows users to define and provision data center infrastructure using a high-level configuration language known as HashiCorp Configuration Language (HCL), or optionally JSON.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "devops",
-            "iac",
-            "automation"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Terraformer",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://github.com/GoogleCloudPlatform/terraformer"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/GoogleCloudPlatform/terraformer"
-            }
-        ],
-        "description": "A CLI tool to generate terraform files from existing infrastructure (reverse Terraform).",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "devops",
-            "iac",
-            "automation"
-        ],
-        "notes": []
-    },
-    {
-        "name": "tmux",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://github.com/tmux/tmux"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/tmux/tmux"
-            },
-            {
-                "name": "docs",
-                "url": "https://github.com/tmux/tmux/wiki"
-            }
-        ],
-        "description": "tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them and reattach them to a different terminal.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "terminal",
-            "multiplexer"
-        ],
-        "notes": []
-    },
-    {
-        "name": "uv",
-        "urls": [
-            {
-                "name": "home",
-                "url": "docs.astral.sh/uv"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/astral-sh/uv"
-            },
-            {
-                "name": "docs",
-                "url": "https://docs.astral.sh/uv/getting-started/"
-            }
-        ],
-        "description": "A Python package & project manager written in Rust.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "dev",
-            "version-manager"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Ventoy",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://www.ventoy.net"
-            },
-            {
-                "name": "docs",
-                "url": "https://ventoy.net/en/doc_start.html"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/ventoy/Ventoy.git"
-            }
-        ],
-        "description": "Ventoy is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files. With Ventoy, you don't need to format the disk over and over, you just need to copy the image files to the USB drive and boot them directly.",
-        "tags": [
-            "windows",
-            "linux",
-            "mac",
-            "cli",
-            "liveusb"
-        ],
-        "notes": []
-    },
-    {
-        "name": "VSCode",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://code.visualstudio.com/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/microsoft/vscode"
-            },
-            {
-                "name": "docs",
-                "url": "https://code.visualstudio.com/docs"
-            }
-        ],
-        "description": "The winner of the IDE wars! VSCode is a powerful, light weight, and popular open source code editor developed by Microsoft.",
-        "tags": [
-            "linux",
-            "windows",
-            "mac",
-            "dev",
-            "editor"
-        ],
-        "notes": []
-    },
-    {
-        "name": "vulture",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://github.com/jendrikseipp/vulture"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/jendrikseipp/vulture"
-            }
-        ],
-        "description": "Finds unused code in Python programs.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "dev",
-            "python"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Waterfox browser",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://www.waterfox.net"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/BrowserWorks/Waterfox"
-            }
-        ],
-        "description": "A web browser based on Mozilla Firefox, focusing on privacy and user choice.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "android",
-            "ios",
-            "browser"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Wezterm",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://wezterm.org"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/wezterm/wezterm"
-            },
-            {
-                "name": "docs",
-                "url": "https://wezterm.org/config/files.html"
-            }
-        ],
-        "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "terminal",
-            "multiplexer"
-        ],
-        "notes": []
-    },
-    {
-        "name": "WinSCP",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://winscp.net/eng/index.php"
-            },
-            {
-                "name": "docs",
-                "url": "https://winscp.net/eng/docs/start"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/winscp/winscp"
-            }
-        ],
-        "description": "A popular free SFTP and FTP client for Windows, a powerful file manager that will improve your productivity.",
-        "tags": [
-            "windows",
-            "cli",
-            "file-transfer",
-            "sftp",
-            "ftp",
-            "scp"
-        ],
-        "notes": []
-    },
-    {
-        "name": "WizTree",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://www.diskanalyzer.com"
-            },
-            {
-                "name": "docs",
-                "url": "https://www.diskanalyzer.com/guide"
-            }
-        ],
-        "description": "WizTree is a disk space analyzer tool for Windows that scans your hard drive and displays the files and folders that are taking up the most space.",
-        "tags": [
-            "windows",
-            "productivity",
-            "disk-space-analyzer"
-        ],
-        "notes": []
-    },
-    {
-        "name": "xenon",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://xenon.readthedocs.io/en/latest/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/rubik/xenon"
-            },
-            {
-                "name": "docs",
-                "url": "https://xenon.readthedocs.io/en/latest/"
-            }
-        ],
-        "description": "A Python tool that checks code complexity against defined thresholds. It can check Cyclomatic Complexity, Maintainability Index, and raw metrics like lines of code.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "dev",
-            "python"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Yazi",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://yazi-rs.github.io/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/sxyazi/yazi"
-            },
-            {
-                "name": "docs",
-                "url": "https://yazi-rs.github.io/docs/installation"
-            }
-        ],
-        "description": "A really fast terminal file browser.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "file-explorer"
-        ]
-    },
-    {
-        "name": "zellij",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://zellij.dev"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/zellij-org/zellij"
-            },
-            {
-                "name": "docs",
-                "url": "https://zellij.dev/documentation/"
-            }
-        ],
-        "description": "A terminal workspace with batteries included. A terminal multiplexer and more.",
-        "tags": [
-            "linux",
-            "mac",
-            "windows",
-            "cli",
-            "terminal",
-            "multiplexer"
-        ],
-        "notes": []
-    },
-    {
-        "name": "Zen browser",
-        "urls": [
-            {
-                "name": "github",
-                "url": "https://github.com/zen-browser/desktop"
-            },
-            {
-                "name": "home",
-                "url": "https://github.com/zen-browser"
-            }
-        ],
-        "description": "A privacy-focused web browser built on Chromium, designed to provide a fast and secure browsing experience.",
-        "tags": [
-            "browser",
-            "linux",
-            "privacy",
-            "mac",
-            "windows"
-        ],
-        "notes": []
-    }
+  {
+    "name": "Zeal Docs",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://zealdocs.org"
+      },
+      {
+        "name": "download",
+        "url": "https://zealdocs.org/download.html"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/zealdocs/zeal"
+      }
+    ],
+    "description": "Zeal is an offline documentation browser for software developers.",
+    "tags": ["dev", "docs", "windows", "linux"],
+    "notes": []
+  },
+  {
+    "name": "Aqua",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://aquaproj.github.io/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/aquaproj/aqua"
+      },
+      {
+        "name": "docs",
+        "url": "https://aquaproj.github.io/docs/"
+      }
+    ],
+    "description": "Aqua is a CLI tool that manages your developer tools and ensures consistent versions across your projects. It supports multiple languages and package managers.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "automation",
+      "version-manager"
+    ],
+    "notes": []
+  },
+  {
+    "name": "BCUninstaller",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://www.bcuninstaller.com"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller"
+      },
+      {
+        "name": "docs",
+        "url": "https://htmlpreview.github.io/?https://github.com/Klocman/Bulk-Crap-Uninstaller/blob/master/doc/BCU_manual.html"
+      }
+    ],
+    "description": "A free and open-source program uninstaller for Windows with many features and options to make uninstalling unwanted software as easy and fast as possible.",
+    "tags": ["windows", "productivity", "uninstaller"],
+    "notes": []
+  },
+  {
+    "name": "Bitwarden",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://bitwarden.com"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/bitwarden/"
+      },
+      {
+        "name": "docs",
+        "url": "https://bitwarden.com/help/"
+      }
+    ],
+    "description": "Bitwarden is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "android",
+      "ios",
+      "security",
+      "password-manager",
+      "mfa"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Bitwarden CLI",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://bitwarden.com/help/cli/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/bitwarden/cli"
+      }
+    ],
+    "description": "The Bitwarden CLI is a command-line interface for managing your Bitwarden vault. It allows you to perform various operations such as adding, retrieving, and deleting items in your vault.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "security",
+      "password-manager",
+      "mfa"
+    ],
+    "notes": []
+  },
+  {
+    "name": "btop",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://github.com/aristocratos/btop"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/aristocratos/btop"
+      },
+      {
+        "name": "docs",
+        "url": "https://github.com/aristocratos/btop#documents"
+      }
+    ],
+    "description": "Btop is a terminal resource monitor like `htop`, but it's faster & nicer to use.",
+    "tags": ["linux", "cli", "monitoring"],
+    "notes": []
+  },
+  {
+    "name": "chezmoi",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://www.chezmoi.io"
+      },
+      {
+        "name": "docs",
+        "url": "https://www.chezmoi.io/user-guide/command-overview/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/twpayne/chezmoi"
+      }
+    ],
+    "description": "Dotfile manager written in Go. Uses Go templates to render files per-machine. Backups & restores to a Git repository.",
+    "tags": ["linux", "mac", "dotfiles", "cli"],
+    "notes": []
+  },
+  {
+    "name": "Clonezilla",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://clonezilla.org"
+      },
+      {
+        "name": "docs",
+        "url": "https://clonezilla.org/clonezilla-live.php"
+      }
+    ],
+    "description": "A partition and disk imaging/cloning program similar to True Image or Norton Ghost. It helps you to do system deployment, bare metal backup and recovery.",
+    "tags": ["linux", "mac", "windows", "cli", "disk-imaging", "backup"],
+    "notes": []
+  },
+  {
+    "name": "cookiecutter",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://github.com/cookiecutter/cookiecutter"
+      },
+      {
+        "name": "docs",
+        "url": "https://cookiecutter.readthedocs.io/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/cookiecutter/cookiecutter"
+      },
+      {
+        "name": "pypi",
+        "url": "https://pypi.org/project/cookiecutter"
+      }
+    ],
+    "description": "An open source library for building coding project templates.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "automation",
+      "templating",
+      "dev"
+    ],
+    "notes": []
+  },
+  {
+    "name": "cyberduck",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://cyberduck.io"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/iterate-ch/cyberduck"
+      },
+      {
+        "name": "docs",
+        "url": "https://docs.cyberduck.io"
+      }
+    ],
+    "description": "A libre server and cloud storage browser for Mac and Windows with support for FTP, SFTP, WebDAV, S3, Azure & OpenStack Swift.",
+    "tags": ["windows", "mac", "file-transfer", "sftp", "ftp", "scp"],
+    "notes": []
+  },
+  {
+    "name": "Dagger",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://dagger.io"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/dagger/dagger"
+      },
+      {
+        "name": "docs",
+        "url": "https://docs.dagger.io"
+      }
+    ],
+    "description": "Dagger is a programmable CI/CD engine that lets you define and run pipelines as code using a unified API across any language, framework, or cloud.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "automation",
+      "ci",
+      "containers"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Devolutions Remote Desktop Manager",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://devolutions.net/remote-desktop-manager/"
+      },
+      {
+        "name": "docs",
+        "url": "https://docs.devolutions.net/rdm/overview/what-is-rdm/"
+      }
+    ],
+    "description": "Remote Desktop Manager (RDM) centralizes all your remote connections, passwords and credentials into a unique platform that can be securely shared between users and across the entire team.",
+    "tags": [
+      "windows",
+      "mac",
+      "linux",
+      "productivity",
+      "remote-desktop",
+      "ssh",
+      "rdp"
+    ],
+    "notes": []
+  },
+  {
+    "name": "devpod",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://devpod.sh"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/loft-sh/devpod"
+      },
+      {
+        "name": "docs",
+        "url": "https://devpod.sh/docs/getting-started/installation/"
+      }
+    ],
+    "description": "Like Github codespaces, but open source, client-only, and unopinionated. Works with any IDE and lets you use any cloud, Kubernetes, or localhost Docker.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "dev",
+      "containers",
+      "kubernetes",
+      "docker"
+    ],
+    "notes": []
+  },
+  {
+    "name": "direnv",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://direnv.net"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/direnv/direnv"
+      },
+      {
+        "name": "docs",
+        "url": "https://direnv.net/#docs"
+      }
+    ],
+    "description": "Dotfile manager written in Go. Uses Go templates to render files per-machine. Backups & restores to a Git repository.",
+    "tags": ["linux", "mac", "windows", "ci", "cli", "dev", "automation"],
+    "notes": []
+  },
+  {
+    "name": "Ente Auth",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://ente.io/auth/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/ente-io/ente"
+      }
+    ],
+    "description": "Ente Auth is an open-source identity and access management solution that provides secure authentication and authorization for applications and services.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "android",
+      "ios",
+      "authentication",
+      "security",
+      "mfa"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Fail2Ban",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://www.fail2ban.org"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/fail2ban/fail2ban"
+      },
+      {
+        "name": "docs",
+        "url": "https://www.fail2ban.org/wiki/index.php/Main_Page"
+      }
+    ],
+    "description": "Intrusion prevention software framework that protects computer servers from brute-force attacks.",
+    "tags": ["linux", "mac", "security", "cli", "automation", "firewall"],
+    "notes": []
+  },
+  {
+    "name": "Flow Launcher",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://flowlauncher.com"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Flow-Launcher/Flow.Launcher"
+      }
+    ],
+    "description": "An open source, Windows application launcher that helps you access programs and files quickly. It supports plugins to extend its functionality.",
+    "tags": ["windows", "productivity", "launcher"],
+    "notes": []
+  },
+  {
+    "name": "fzf",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://junegunn.github.io/fzf/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/junegunn/fzf"
+      },
+      {
+        "name": "docs",
+        "url": "https://junegunn.github.io/fzf/getting-started/"
+      }
+    ],
+    "description": "A general-purpose command-line fuzzy finder. It can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc.",
+    "tags": ["linux", "mac", "windows", "cli", "search", "productivity"],
+    "notes": []
+  },
+  {
+    "name": "Ghostty",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://ghostty.org"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/ghostty-org/ghostty"
+      },
+      {
+        "name": "docs",
+        "url": "https://ghostty.org/docs"
+      }
+    ],
+    "description": "A web-based terminal emulator that allows you to access your terminal from any device with a web browser.",
+    "tags": ["linux", "mac", "windows", "terminal", "ssh", "webui"],
+    "notes": []
+  },
+  {
+    "name": "Gickup",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://gickup.dev"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/cooperspencer/gickup"
+      },
+      {
+        "name": "docs",
+        "url": "https://gickup.dev/category/configuration"
+      }
+    ],
+    "description": "A simple, fast, and secure backup tool that uses Git as the backend. It can back up files and directories to a local or remote Git repository.",
+    "tags": ["linux", "mac", "windows", "cli", "backup", "automation", "git"],
+    "notes": []
+  },
+  {
+    "name": "git",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://git-scm.com"
+      },
+      {
+        "name": "docs",
+        "url": "https://git-scm.com/doc"
+      },
+      {
+        "name": "downloads",
+        "url": "https://git-scm.com/downloads"
+      }
+    ],
+    "description": "Git needs no introduction!",
+    "tags": ["windows", "mac", "linux", "cli", "version-control", "git"],
+    "notes": []
+  },
+  {
+    "name": "gitextensions",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://gitextensions.github.io/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/gitextensions/gitextensions"
+      },
+      {
+        "name": "docs",
+        "url": "https://git-extensions-documentation.readthedocs.io"
+      }
+    ],
+    "description": "A graphical user interface for Git that allows you to manage your repositories, visualize your commit history, and perform common Git operations.",
+    "tags": ["windows", "git", "version-control"],
+    "notes": []
+  },
+  {
+    "name": "Gitnuro",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://gitnuro.com"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/JetpackDuba/Gitnuro"
+      }
+    ],
+    "description": "A FOSS Git multiplatform client for newbies and pros.",
+    "tags": ["linux", "mac", "windows", "git", "version-control"],
+    "notes": []
+  },
+  {
+    "name": "GParted",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://gparted.org"
+      },
+      {
+        "name": "docs",
+        "url": "https://gparted.org/display-doc.php?name=help-manual"
+      }
+    ],
+    "description": "A free partition editor for graphically managing your disk partitions. With GParted you can resize, copy, and move partitions without data loss, enabling you to grow or shrink your C: drive, create space for new operating systems, and attempt data rescue from lost partitions.",
+    "tags": ["linux", "mac", "windows", "cli", "disk-management", "liveusb"],
+    "notes": []
+  },
+  {
+    "name": "Helix",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://helix-editor.com"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/helix-editor/helix"
+      },
+      {
+        "name": "docs",
+        "url": "https://docs.helix-editor.com/"
+      }
+    ],
+    "description": "A post-modern text editor, built on a solid and efficient core, with a strong focus on performance and ergonomics.",
+    "tags": ["linux", "mac", "windows", "cli", "editor", "dev", "tui"],
+    "notes": []
+  },
+  {
+    "name": "Homebrew",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://brew.sh"
+      },
+      {
+        "name": "docs",
+        "url": "https://docs.brew.sh/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Homebrew/brew"
+      }
+    ],
+    "description": "The missing package manager for macOS (also works on Linux).",
+    "tags": ["mac", "linux", "cli", "package-manager"],
+    "notes": []
+  },
+  {
+    "name": "hoppscotch",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://hoppscotch.ioO"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/hoppscotch/hoppscotch"
+      },
+      {
+        "name": "docs",
+        "url": "https://docs.hoppscotch.io/documentation"
+      }
+    ],
+    "description": "Open-source, self-hostable API development ecosystem. An alternative to Postman",
+    "tags": [
+      "windows",
+      "mac",
+      "linux",
+      "cli",
+      "webui",
+      "api",
+      "dev",
+      "selfhost"
+    ],
+    "notes": []
+  },
+  {
+    "name": "HTTPie",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://httpie.io"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/httpie"
+      },
+      {
+        "name": "docs",
+        "url": "https://httpie.io/docs"
+      }
+    ],
+    "description": "Open-source API development ecosystem. An alternative to Postman",
+    "tags": ["windows", "mac", "linux", "cli", "tui", "api", "dev"],
+    "notes": []
+  },
+  {
+    "name": "JSON Crack",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://jsoncrack.com/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/AykutSarac/jsoncrack.com"
+      },
+      {
+        "name": "docs",
+        "url": "https://jsoncrack.com/docs"
+      }
+    ],
+    "description": "JSON Crack is a web-based tool for visualizing and analyzing JSON data structures. Original work published under the Apache License 2.0.",
+    "tags": ["linux", "dev", "json"],
+    "notes": []
+  },
+  {
+    "name": "LazyGit",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://github.com/jesseduffield/lazygit"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/jesseduffield/lazygit"
+      },
+      {
+        "name": "tutorials",
+        "url": "https://github.com/jesseduffield/lazygit#tutorials"
+      },
+      {
+        "name": "installation",
+        "url": "https://github.com/jesseduffield/lazygit#installation"
+      },
+      {
+        "name": "usage",
+        "url": "https://github.com/jesseduffield/lazygit#usage"
+      },
+      {
+        "name": "configuration",
+        "url": "https://github.com/jesseduffield/lazygit#configuration"
+      }
+    ],
+    "description": "Terminal UI for interacting with Git repositories.",
+    "tags": ["linux", "windows", "mac", "cli", "tui", "version-control", "git"],
+    "notes": []
+  },
+  {
+    "name": "Llama.cpp",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://github.com/ggml-org/llama.cpp"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/ggml-org/llama.cpp"
+      }
+    ],
+    "description": "Llama.cpp is the C++ engine behind many local LLM applications. Can run as a server, and can be built with many other features such as imtarix quauntization! Imatrix quantization allows a quantized model to remain performant on a dataset you define during the quantization process.",
+    "tags": ["linux", "windows", "mac", "cli", "llm", "dev", "quantization"],
+    "notes": []
+  },
+  {
+    "name": "Meld",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://meldmerge.org"
+      },
+      {
+        "name": "gitlab",
+        "url": "https://gitlab.gnome.org/GNOME/meld"
+      },
+      {
+        "name": "docs",
+        "url": "https://gitlab.gnome.org/GNOME/meld/wikis/home"
+      }
+    ],
+    "description": "A visual diff and merge tool that helps you compare files, directories, and version controlled projects.",
+    "tags": ["linux", "mac", "windows", "diff", "merge", "git", "dev"],
+    "notes": []
+  },
+  {
+    "name": "Neovide",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://neovide.dev"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/neovide/neovide"
+      },
+      {
+        "name": "docs",
+        "url": "https://neovide.dev/configuration.html"
+      }
+    ],
+    "description": "A simple, no-nonsense, cross-platform GUI for Neovim.",
+    "tags": ["linux", "mac", "windows", "editor", "dev", "vim"],
+    "notes": []
+  },
+  {
+    "name": "neovim",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://neovim.io"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/neovim/neovim"
+      },
+      {
+        "name": "docs",
+        "url": "https://neovim.io/doc/"
+      }
+    ],
+    "description": "Neovim is a hyperextensible Vim-based text editor. It seeks to improve upon Vim by providing better defaults, a more modern codebase, and a robust plugin architecture.",
+    "tags": ["linux", "mac", "windows", "cli", "editor", "dev", "vim", "tui"],
+    "notes": []
+  },
+  {
+    "name": "Nmap",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://nmap.org/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/nmap/nmap"
+      },
+      {
+        "name": "docs",
+        "url": "https://nmap.org/docs/"
+      }
+    ],
+    "description": "Nmap is a powerful open source network scanning tool used for network discovery and security auditing. Scan responsibly!",
+    "tags": [
+      "linux",
+      "windows",
+      "mac",
+      "dev",
+      "scanner",
+      "cli",
+      "security",
+      "networking"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Ollama",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://ollama.com/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/ollama/ollama"
+      },
+      {
+        "name": "docs",
+        "url": "https://docs.ollama.com/"
+      }
+    ],
+    "description": "Ollama is a tool for managing and deploying open source GGUF machine learning models, now with a native chat GUI!",
+    "tags": ["linux", "windows", "mac", "cli", "gui", "llm", "dev"],
+    "notes": []
+  },
+  {
+    "name": "OpenTofu",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://opentofu.org"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/opentofu/opentofu"
+      },
+      {
+        "name": "docs",
+        "url": "https://opentofu.org/docs/"
+      },
+      {
+        "name": "registry",
+        "url": "https://github.com/opentofu/registry"
+      }
+    ],
+    "description": "OpenTofu is a community-driven, open-source infrastructure as code (IaC) tool that enables users to define, provision, and manage cloud infrastructure using a declarative configuration language.",
+    "tags": ["linux", "mac", "windows", "cli", "devops", "iac", "automation"],
+    "notes": []
+  },
+  {
+    "name": "osv-scanner",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://osv.dev"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/google/osv-scanner"
+      },
+      {
+        "name": "docs",
+        "url": "https://osv.dev/docs/"
+      }
+    ],
+    "description": "A tool that scans your project dependencies for known vulnerabilities using the OSV database.",
+    "tags": ["linux", "mac", "windows", "cli", "dev", "security"],
+    "notes": []
+  },
+  {
+    "name": "pipx",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://pipx.pypa.io/stable/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/pypa/pipx"
+      },
+      {
+        "name": "docs",
+        "url": "https://pipx.pypa.io/stable/docs/"
+      }
+    ],
+    "description": "Install and run Python applications in isolated environments.",
+    "tags": ["linux", "mac", "windows", "cli", "dev", "python"],
+    "notes": []
+  },
+  {
+    "name": "Playnite",
+    "urls": [
+      {
+        "name": "github",
+        "url": "https://github.com/JosefNemec/Playnite"
+      },
+      {
+        "name": "docs",
+        "url": "https://playnite.link/docs/"
+      },
+      {
+        "name": "addons",
+        "url": "https://playnite.link/addons.html"
+      },
+      {
+        "name": "docs",
+        "url": "https://api.playnite.link/docs/manual/gettingStarted/gettingStartedOverview.html"
+      },
+      {
+        "name": "home",
+        "url": "https://playnite.link"
+      }
+    ],
+    "description": "An open source video game library manager with support for 3rd party libraries like Steam, GOG, Origin, Uplay, Epic and more.",
+    "tags": ["windows", "mac", "games", "linux"],
+    "notes": []
+  },
+  {
+    "name": "Powertoys",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://learn.microsoft.com/en-us/windows/powertoys/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/microsoft/PowerToys"
+      }
+    ],
+    "description": "A set of utilities for power users to tune and streamline their Windows experience for greater productivity.",
+    "tags": ["windows", "productivity"],
+    "notes": []
+  },
+  {
+    "name": "Pre-commit",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://pre-commit.com"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/pre-commit/pre-commit"
+      },
+      {
+        "name": "docs",
+        "url": "https://pre-commit.com/#docs"
+      }
+    ],
+    "description": "A framework for managing and maintaining multi-language pre-commit hooks.",
+    "tags": ["linux", "mac", "windows", "cli", "dev", "automation", "git"],
+    "notes": []
+  },
+  {
+    "name": "Pyenv",
+    "urls": [
+      {
+        "name": "github",
+        "url": "https://github.com/pyenv/pyenv"
+      },
+      {
+        "name": "home",
+        "url": "https://github.com/pyenv/pyenv"
+      },
+      {
+        "name": "docs",
+        "url": "https://github.com/pyenv/pyenv?tab=readme-ov-file#table-of-contents"
+      }
+    ],
+    "description": "Simple Python version management. Allows you to easily switch between multiple versions of Python. Can be used to manage multiple versions of Python on a per-project basis.",
+    "tags": [
+      "cli",
+      "python",
+      "linux",
+      "mac",
+      "windows",
+      "version-manager",
+      "dev"
+    ],
+    "notes": []
+  },
+  {
+    "name": "radon",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://radon.readthedocs.io/en/latest/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/rubik/radon"
+      },
+      {
+        "name": "docs",
+        "url": "https://radon.readthedocs.io/en/latest/"
+      }
+    ],
+    "description": "A Python tool that computes various metrics from the source code. It can compute Cyclomatic Complexity, Halstead metrics, Maintainability Index, and raw metrics like lines of code.",
+    "tags": ["linux", "mac", "windows", "cli", "dev", "python"],
+    "notes": []
+  },
+  {
+    "name": "RClone",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://rclone.org"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/rclone/rclone"
+      },
+      {
+        "name": "docs",
+        "url": "https://rclone.org/install/"
+      }
+    ],
+    "description": "'rsync for cloud storage.' RClone lets you connect to many backends, like S3, Dropbox, Backblaze B2, Google Drive, Wasabi, etc, and sync to/from it like you would with rsync.",
+    "tags": ["linux", "mac", "windows", "cli", "automation", "file-transfer"],
+    "notes": []
+  },
+  {
+    "name": "restic",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://restic.net"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/restic/restic"
+      },
+      {
+        "name": "docs",
+        "url": "https://restic.readthedocs.io/en/stable/"
+      }
+    ],
+    "description": "Fast, secure, efficient backup program. Supports many backends, including local disk, SFTP, AWS S3, Backblaze B2, Wasabi, Google Cloud Storage, Microsoft Azure Blob Storage, and more.",
+    "tags": ["linux", "mac", "windows", "cli", "backup", "automation"],
+    "notes": []
+  },
+  {
+    "name": "resticprofile",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://creativeprojects.github.io/resticprofile/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/creativeprojects/resticprofile"
+      },
+      {
+        "name": "docs",
+        "url": "https://creativeprojects.github.io/resticprofile/configuration/index.html"
+      }
+    ],
+    "description": "A wrapper around restic to manage multiple backup profiles with different configurations. Uses a `~/.profile.yaml` file to define backup jobs.",
+    "tags": ["linux", "mac", "windows", "cli", "backup", "automation"],
+    "notes": []
+  },
+  {
+    "name": "Rio Term",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://rioterm.com"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/raphamorim/rio"
+      },
+      {
+        "name": "docs",
+        "url": "https://rioterm.com/docs/config"
+      }
+    ],
+    "description": "A modern SSH client and terminal emulator that simplifies remote server management with an intuitive interface and powerful features.",
+    "tags": ["linux", "mac", "windows", "terminal", "ssh"],
+    "notes": []
+  },
+  {
+    "name": "ripgrep",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://github.com/BurntSushi/ripgrep"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/BurntSushi/ripgrep"
+      },
+      {
+        "name": "docs",
+        "url": "https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#documentation-quick-links"
+      }
+    ],
+    "description": "A line-oriented search tool that recursively searches your current directory for a regex pattern. Similar to grep, but faster.",
+    "tags": ["linux", "mac", "windows", "cli", "search"],
+    "notes": []
+  },
+  {
+    "name": "scoop",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://scoop.sh"
+      },
+      {
+        "name": "apps",
+        "url": "https://scoop.sh/#/apps"
+      },
+      {
+        "name": "buckets",
+        "url": "https://scoop.sh/#/buckets"
+      },
+      {
+        "name": "install-docs",
+        "url": "https://github.com/ScoopInstaller/Install#readme"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/ScoopInstaller/Scoop"
+      }
+    ],
+    "description": "CLI package manager for Windows. Installs all packages to a user-writeable path so backups are easy and admin privileges are not required.",
+    "tags": ["windows", "package_manager", "cli"],
+    "notes": []
+  },
+  {
+    "name": "ShareX",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://getsharex.com"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/ShareX/ShareX"
+      }
+    ],
+    "description": "An open-source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from.",
+    "tags": ["windows", "productivity", "screenshot", "screen-recording"],
+    "notes": []
+  },
+  {
+    "name": "sourcegit",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://github.com/sourcegit-scm/sourcegit"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/sourcegit-scm/sourcegit"
+      },
+      {
+        "name": "docs",
+        "url": "https://github.com/sourcegit-scm/sourcegit?tab=readme-ov-file#how-to-use"
+      }
+    ],
+    "description": "A Git extension that allows you to manage your Git repositories with a simple and intuitive interface.",
+    "tags": ["linux", "mac", "windows", "git", "version-control"],
+    "notes": []
+  },
+  {
+    "name": "Starship",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://starship.rs"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/starship/starship"
+      },
+      {
+        "name": "docs",
+        "url": "https://starship.rs/guide/"
+      }
+    ],
+    "description": "The minimal, blazing-fast, and infinitely customizable prompt for any shell.",
+    "tags": ["linux", "mac", "windows", "cli", "shell", "customization"],
+    "notes": []
+  },
+  {
+    "name": "termscp",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://termscp.veeso.dev/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/veeso/termscp"
+      },
+      {
+        "name": "docs",
+        "url": "https://termscp.veeso.dev/user-manual.html"
+      }
+    ],
+    "description": "A terminal file transfer client and file manager with a user-friendly TUI. Supports SFTP, FTP, FTPS, SCP, and local file operations.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "cli",
+      "tui",
+      "file-transfer",
+      "sftp",
+      "ftp",
+      "scp"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Terraform",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://www.terraform.io"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/hashicorp/terraform"
+      },
+      {
+        "name": "docs",
+        "url": "https://www.terraform.io/docs/index.html"
+      },
+      {
+        "name": "registry",
+        "url": "https://registry.terraform.io/providers/integrations/github/latest/docs"
+      }
+    ],
+    "description": "Terraform is an open-source infrastructure as code software tool created by HashiCorp. It allows users to define and provision data center infrastructure using a high-level configuration language known as HashiCorp Configuration Language (HCL), or optionally JSON.",
+    "tags": ["linux", "mac", "windows", "cli", "devops", "iac", "automation"],
+    "notes": []
+  },
+  {
+    "name": "Terraformer",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://github.com/GoogleCloudPlatform/terraformer"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/GoogleCloudPlatform/terraformer"
+      }
+    ],
+    "description": "A CLI tool to generate terraform files from existing infrastructure (reverse Terraform).",
+    "tags": ["linux", "mac", "windows", "cli", "devops", "iac", "automation"],
+    "notes": []
+  },
+  {
+    "name": "tmux",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://github.com/tmux/tmux"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/tmux/tmux"
+      },
+      {
+        "name": "docs",
+        "url": "https://github.com/tmux/tmux/wiki"
+      }
+    ],
+    "description": "tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them and reattach them to a different terminal.",
+    "tags": ["linux", "mac", "windows", "cli", "terminal", "multiplexer"],
+    "notes": []
+  },
+  {
+    "name": "uv",
+    "urls": [
+      {
+        "name": "home",
+        "url": "docs.astral.sh/uv"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/astral-sh/uv"
+      },
+      {
+        "name": "docs",
+        "url": "https://docs.astral.sh/uv/getting-started/"
+      }
+    ],
+    "description": "A Python package & project manager written in Rust.",
+    "tags": ["linux", "mac", "windows", "cli", "dev", "version-manager"],
+    "notes": []
+  },
+  {
+    "name": "Ventoy",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://www.ventoy.net"
+      },
+      {
+        "name": "docs",
+        "url": "https://ventoy.net/en/doc_start.html"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/ventoy/Ventoy.git"
+      }
+    ],
+    "description": "Ventoy is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files. With Ventoy, you don't need to format the disk over and over, you just need to copy the image files to the USB drive and boot them directly.",
+    "tags": ["windows", "linux", "mac", "cli", "liveusb"],
+    "notes": []
+  },
+  {
+    "name": "VSCode",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://code.visualstudio.com/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/microsoft/vscode"
+      },
+      {
+        "name": "docs",
+        "url": "https://code.visualstudio.com/docs"
+      }
+    ],
+    "description": "The winner of the IDE wars! VSCode is a powerful, light weight, and popular open source code editor developed by Microsoft.",
+    "tags": ["linux", "windows", "mac", "dev", "editor"],
+    "notes": []
+  },
+  {
+    "name": "vulture",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://github.com/jendrikseipp/vulture"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/jendrikseipp/vulture"
+      }
+    ],
+    "description": "Finds unused code in Python programs.",
+    "tags": ["linux", "mac", "windows", "cli", "dev", "python"],
+    "notes": []
+  },
+  {
+    "name": "Waterfox browser",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://www.waterfox.net"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/BrowserWorks/Waterfox"
+      }
+    ],
+    "description": "A web browser based on Mozilla Firefox, focusing on privacy and user choice.",
+    "tags": ["linux", "mac", "windows", "android", "ios", "browser"],
+    "notes": []
+  },
+  {
+    "name": "Wezterm",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://wezterm.org"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/wezterm/wezterm"
+      },
+      {
+        "name": "docs",
+        "url": "https://wezterm.org/config/files.html"
+      }
+    ],
+    "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust.",
+    "tags": ["linux", "mac", "windows", "cli", "terminal", "multiplexer"],
+    "notes": []
+  },
+  {
+    "name": "WinSCP",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://winscp.net/eng/index.php"
+      },
+      {
+        "name": "docs",
+        "url": "https://winscp.net/eng/docs/start"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/winscp/winscp"
+      }
+    ],
+    "description": "A popular free SFTP and FTP client for Windows, a powerful file manager that will improve your productivity.",
+    "tags": ["windows", "cli", "file-transfer", "sftp", "ftp", "scp"],
+    "notes": []
+  },
+  {
+    "name": "WizTree",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://www.diskanalyzer.com"
+      },
+      {
+        "name": "docs",
+        "url": "https://www.diskanalyzer.com/guide"
+      }
+    ],
+    "description": "WizTree is a disk space analyzer tool for Windows that scans your hard drive and displays the files and folders that are taking up the most space.",
+    "tags": ["windows", "productivity", "disk-space-analyzer"],
+    "notes": []
+  },
+  {
+    "name": "xenon",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://xenon.readthedocs.io/en/latest/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/rubik/xenon"
+      },
+      {
+        "name": "docs",
+        "url": "https://xenon.readthedocs.io/en/latest/"
+      }
+    ],
+    "description": "A Python tool that checks code complexity against defined thresholds. It can check Cyclomatic Complexity, Maintainability Index, and raw metrics like lines of code.",
+    "tags": ["linux", "mac", "windows", "cli", "dev", "python"],
+    "notes": []
+  },
+  {
+    "name": "Yazi",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://yazi-rs.github.io/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/sxyazi/yazi"
+      },
+      {
+        "name": "docs",
+        "url": "https://yazi-rs.github.io/docs/installation"
+      }
+    ],
+    "description": "A really fast terminal file browser.",
+    "tags": ["linux", "mac", "windows", "cli", "file-explorer"]
+  },
+  {
+    "name": "zellij",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://zellij.dev"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/zellij-org/zellij"
+      },
+      {
+        "name": "docs",
+        "url": "https://zellij.dev/documentation/"
+      }
+    ],
+    "description": "A terminal workspace with batteries included. A terminal multiplexer and more.",
+    "tags": ["linux", "mac", "windows", "cli", "terminal", "multiplexer"],
+    "notes": []
+  },
+  {
+    "name": "Zen browser",
+    "urls": [
+      {
+        "name": "github",
+        "url": "https://github.com/zen-browser/desktop"
+      },
+      {
+        "name": "home",
+        "url": "https://github.com/zen-browser"
+      }
+    ],
+    "description": "A privacy-focused web browser built on Chromium, designed to provide a fast and secure browsing experience.",
+    "tags": ["browser", "linux", "privacy", "mac", "windows"],
+    "notes": []
+  }
 ]
+
