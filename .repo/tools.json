@@ -1,5 +1,30 @@
 [
   {
+    "name": "Zeal Docs",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://zealdocs.org"
+      },
+      {
+        "name": "download",
+        "url": "https://zealdocs.org/download.html"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/zealdocs/zeal"
+      }
+    ],
+    "description": "Zeal is an offline documentation browser for software developers.",
+    "tags": [
+      "dev",
+      "docs",
+      "windows",
+      "linux"
+    ],
+    "notes": []
+  },
+  {
     "name": "Aqua",
     "urls": [
       {
