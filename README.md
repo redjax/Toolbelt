@@ -76,7 +76,7 @@ Tools I've found useful, with a bias towards FOSS (free, open-source software).
 | [WizTree](https://www.diskanalyzer.com) | WizTree is a disk space analyzer tool for Windows that scans your hard drive and displays the files and folders that are taking up the most space. | [docs](https://www.diskanalyzer.com/guide) |
 | [xenon](https://xenon.readthedocs.io/en/latest/) | A Python tool that checks code complexity against defined thresholds. It can check Cyclomatic Complexity, Maintainability Index, and raw metrics like lines of code. | [github](https://github.com/rubik/xenon), [docs](https://xenon.readthedocs.io/en/latest/) |
 | [Yazi](https://yazi-rs.github.io/) | A really fast terminal file browser. | [github](https://github.com/sxyazi/yazi), [docs](https://yazi-rs.github.io/docs/installation) |
-| [Zeal Docs](https://zealdocs.org) | Zeal is an offline documentation browser for software developers. | [download](https://zealdocs.org/download.html), [Github](https://github.com/zealdocs/zeal) |
+| [Zeal Docs](https://zealdocs.org) | Zeal is an offline documentation browser for software developers. | [download](https://zealdocs.org/download.html), [Github](https://github.com/zealdocs/zeal), [Dash doc feeds](https://github.com/Kapeli/feeds) |
 | [zellij](https://zellij.dev) | A terminal workspace with batteries included. A terminal multiplexer and more. | [github](https://github.com/zellij-org/zellij), [docs](https://zellij.dev/documentation/) |
 | [Zen browser](https://github.com/zen-browser) | A privacy-focused web browser built on Chromium, designed to provide a fast and secure browsing experience. | [github](https://github.com/zen-browser/desktop) |
 
