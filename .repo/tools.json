@@ -333,7 +333,7 @@
                 "url": "https://direnv.net/#docs"
             }
         ],
-        "description": "Dotfile manager written in Go. Uses Go templates to render files per-machine. Backups & restores to a Git repository.",
+        "description": "direnv is an extension for your shell. It augments existing shells with a new feature that can load and unload environment variables depending on the current directory.",
         "tags": [
             "linux",
             "mac",
