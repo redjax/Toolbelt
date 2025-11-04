@@ -8,10 +8,15 @@
       }
     ],
     "description": "Text describing the tool",
-    "tags": [
+    "category": "uncategorized",
+    "platforms": [
       "linux",
       "mac",
       "windows",
+      "android",
+      "ios"
+    ],
+    "tags": [
       "security",
       "cli",
       "tui"
