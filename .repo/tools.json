@@ -1,5 +1,118 @@
 [
   {
+    "name": "Intelli-Shell",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://lasantosr.github.io/intelli-shell/"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/lasantosr/intelli-shell"
+      }
+    ],
+    "description": "Like IntelliSense, but for shells.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "terminal",
+      "tui",
+      "shell"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Atuin",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://atuin.sh"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/atuinsh/atuin"
+      },
+      {
+        "name": "Docs",
+        "url": "https://docs.atuin.sh"
+      }
+    ],
+    "description": "Bash/ZSH history utility, which keeps your shell history",
+    "tags": [
+      "linux",
+      "mac",
+      "terminal"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Gitid",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://github.com/nathabonfim59/gitid"
+      }
+    ],
+    "description": "Separate different git identities in ~/.gitconfig.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "git",
+      "terminal"
+    ],
+    "notes": []
+  },
+  {
+    "name": "SOPS",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://getsops.io/"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/getsops/sops"
+      }
+    ],
+    "description": "Simple and flexible tool for managing secrets. Safely embed encrypted secrets in a git repository using 'age' encryption.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "security",
+      "encryption"
+    ],
+    "notes": []
+  },
+  {
+    "name": "Rio Terminal",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://rioterm.com/"
+      },
+      {
+        "name": "docs",
+        "url": "https://rioterm.com/docs/command-line-interface"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/raphamorim/rio"
+      }
+    ],
+    "description": "Customizable, modern terminal emulator written in Rust.",
+    "tags": [
+      "linux",
+      "mac",
+      "windows",
+      "terminal",
+      "shells"
+    ],
+    "notes": []
+  },
+  {
     "name": "Aqua",
     "urls": [
       {
