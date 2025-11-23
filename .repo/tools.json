@@ -1,5 +1,37 @@
 [
     {
+        "name": "Localsend",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://localsend.org"
+            },
+            {
+                "name": "downloads",
+                "url": "https://localsend.org/download"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/localsend/localsend"
+            }
+        ],
+        "description"": "An open source, cross-platform alternative to Apple AirDrop.",
+        "tags"": [
+            "filesharing",
+            "airdrop",
+            "filesend"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "linux",
+            "mac",
+            "windows",
+            "android",
+            "ios"
+        ]
+    },
+    {
         "name": "Aqua",
         "urls": [
             {
