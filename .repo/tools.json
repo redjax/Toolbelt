@@ -15,8 +15,8 @@
                 "url": "https://github.com/localsend/localsend"
             }
         ],
-        "description"": "An open source, cross-platform alternative to Apple AirDrop.",
-        "tags"": [
+        "description": "An open source, cross-platform alternative to Apple AirDrop.",
+        "tags": [
             "filesharing",
             "airdrop",
             "filesend"
