@@ -1,5 +1,40 @@
 [
     {
+        "name": "Mise",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://mise.jdx.dev"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/jdx/mise"
+            },
+            {
+                "name": "docs",
+                "url": "https://mise.jdx.dev/getting-started.html"
+            },
+            {
+                "name": "package repository",
+                "url": "https://mise-tools.jdx.dev"
+            }
+        ],
+        "description": "Mise is a version manager for all your tools. It is a versatile, cross-platform installer, and can scope tool installations to individual directories on your machine, keeping your global $PATH clean. Great for sharing code, Docker, and CI/CD pipelines.",
+        "tags": [
+            "cli",
+            "dev",
+            "version-manager",
+            "automation"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "windows",
+            "linux",
+            "mac"
+        ]
+    },
+    {
         "name": "Aqua",
         "urls": [
             {
