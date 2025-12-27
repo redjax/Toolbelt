@@ -1,5 +1,36 @@
 [
     {
+        "name": "Go-task",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://taskfile.dev"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/go-task/task"
+            },
+            {
+                "name": "docs",
+                "url": "https://taskfile.dev/docs/guide"
+            }
+        ],
+        "description": "Cross-platform build/automation tool. Define tasks as YAML files and call them with the `task` CLI command.",
+        "tags": [
+            "cli",
+            "dev",
+            "automation",
+            "build-tool"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "windows",
+            "linux",
+            "mac"
+        ]
+    },
+    {
         "name": "Aqua",
         "urls": [
             {
