@@ -1,5 +1,22 @@
 [
     {
+        "name": "Lychee",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://lychee.cli.rs"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/lycheeverse/lychee"
+            },
+            {
+                "name": "docs",
+                "url": "https://lychee.cli.rs/guides/getting-started/"
+            }
+        ]
+    },
+    {
         "name": "Aqua",
         "urls": [
             {
