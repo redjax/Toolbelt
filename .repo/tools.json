@@ -1,36 +1,5 @@
 [
     {
-        "name": "Vale",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://vale.sh/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/errata-ai/vale"
-            },
-            {
-                "name": "docs",
-                "url": "https://vale.sh/docs"
-            }
-        ],
-        "description": "Vale is an open-source, command-line tool that encodes a writing style guide into configuration packages and lints your writing. It can help you determine the reading level of your writing (for help targeting specific audiences), and integrates with other checkers like Proselint and write-good to help you improve the structure of your writing. It is NOT a spell checking/grammar tool like LanguageTool or CSpell, and can be used in conjunction with those tools.",
-        "tags": [
-            "cli",
-            "style",
-            "lint",
-            "writing"
-        ],
-        "notes": [],
-        "category": "uncategorized",
-        "platforms": [
-            "windows",
-            "linux",
-            "mac"
-        ]
-    },
-    {
         "name": "Aqua",
         "urls": [
             {
@@ -1955,6 +1924,37 @@
             "cli",
             "dev",
             "version-manager"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "windows",
+            "linux",
+            "mac"
+        ]
+    },
+    {
+        "name": "Vale",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://vale.sh/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/errata-ai/vale"
+            },
+            {
+                "name": "docs",
+                "url": "https://vale.sh/docs"
+            }
+        ],
+        "description": "Vale is an open-source, command-line tool that encodes a writing style guide into configuration packages and lints your writing. It can help you determine the reading level of your writing (for help targeting specific audiences), and integrates with other checkers like Proselint and write-good to help you improve the structure of your writing. It is NOT a spell checking/grammar tool like LanguageTool or CSpell, and can be used in conjunction with those tools.",
+        "tags": [
+            "cli",
+            "style",
+            "lint",
+            "writing"
         ],
         "notes": [],
         "category": "uncategorized",
