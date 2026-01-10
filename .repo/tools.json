@@ -1004,6 +1004,20 @@
                 "name": "docs",
                 "url": "https://lychee.cli.rs/guides/getting-started/"
             }
+        ],
+        "description": "Lychee is a link checker. You can point it at local files (i.e. during web development, or after rendering a static site), live URLs, etc. It also checks email addresses.",
+        "tags": [
+            "http",
+            "automation",
+            "utility",
+            "cli"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "linux",
+            "mac",
+            "windows"
         ]
     },
     {
