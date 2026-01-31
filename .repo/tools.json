@@ -1,27 +1,5 @@
 [
     {
-        "name": "LazyWorktree",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://github.com/chmouel/lazyworktree"
-            }
-        ],
-        "description": "LazyWorktree is a TUI for managing your Git worktrees",
-        "tags": [
-            "cli",
-            "dev",
-            "git"
-        ],
-        "notes": [],
-        "category": "uncategorized",
-        "platforms": [
-            "windows",
-            "linux",
-            "mac"
-        ]
-    },
-    {
         "name": "Aqua",
         "urls": [
             {
@@ -943,6 +921,28 @@
             "git",
             "tui",
             "version-control"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "windows",
+            "linux",
+            "mac"
+        ]
+    },
+    {
+        "name": "LazyWorktree",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://github.com/chmouel/lazyworktree"
+            }
+        ],
+        "description": "LazyWorktree is a TUI for managing your Git worktrees",
+        "tags": [
+            "cli",
+            "dev",
+            "git"
         ],
         "notes": [],
         "category": "uncategorized",
