@@ -1,5 +1,24 @@
 [
     {
+        "name": "Timeshift",
+        "urls": [
+            {
+                "name": "github",
+                "url": "https://github.com/linuxmint/timeshift"
+            }
+        ],
+        "description": "Timeshift is a system restore tool for Linux (like macOS's Time Machine). Supports BTRFS snaptshots on systems using the BTRFS filesystem.",
+        "tags": [
+            "backup",
+            "linux",
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "linux",
+        ]
+    },
+    {
         "name": "Aqua",
         "urls": [
             {
