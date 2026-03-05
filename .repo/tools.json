@@ -3,6 +3,10 @@
         "name": "Timeshift",
         "urls": [
             {
+                "name": "home",
+                "url": "https://github.com/linuxmint/timeshift"
+            },
+            {
                 "name": "github",
                 "url": "https://github.com/linuxmint/timeshift"
             }
