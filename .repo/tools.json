@@ -1,35 +1,5 @@
 [
     {
-        "name": "Fresh Terminal text editor",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://getfresh.dev/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/sinelaw/fresh"
-            },
-            {
-                "name": "docs",
-                "url": "https://getfresh.dev/docs/"
-            }
-        ],
-        "description": "Fresh is a 'full featured terminal text editor with zero configuration.' It has familiar keybinds, like `CTRL+C`/`CTRL+V`, `CTRL+S`, and has mouse support and LSP integration. If modal editors like Neovim are too much of a jump, Fresh feels like editors you're used to, but in the terminal.",
-        "tags": [
-            "cli",
-            "editor",
-            "tui"
-        ],
-        "notes": [],
-        "category": "uncategorized",
-        "platforms": [
-            "windows",
-            "linux",
-            "mac"
-        ]
-    },
-    {
         "name": "Aqua",
         "urls": [
             {
@@ -520,6 +490,36 @@
         "category": "uncategorized",
         "platforms": [
             "windows"
+        ]
+    },
+    {
+        "name": "Fresh Terminal text editor",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://getfresh.dev/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/sinelaw/fresh"
+            },
+            {
+                "name": "docs",
+                "url": "https://getfresh.dev/docs/"
+            }
+        ],
+        "description": "Fresh is a 'full featured terminal text editor with zero configuration.' It has familiar keybinds, like `CTRL+C`/`CTRL+V`, `CTRL+S`, and has mouse support and LSP integration. If modal editors like Neovim are too much of a jump, Fresh feels like editors you're used to, but in the terminal.",
+        "tags": [
+            "cli",
+            "editor",
+            "tui"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "windows",
+            "linux",
+            "mac"
         ]
     },
     {
