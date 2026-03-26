@@ -133,7 +133,7 @@ class ToolsFileManager:
             name = obj["name"]
             # Use lowercase name as the key for case-insensitive comparison
             name_key = name.lower()
-            
+
             if name_key not in merged:
                 ## Make a copy so we don't modify the original list
                 merged[name_key] = copy.deepcopy(obj)
@@ -156,11 +156,11 @@ class ToolsFileManager:
                 desc2 = obj.get("description", "")
 
                 m["description"] = desc1 if len(desc1) >= len(desc2) else desc2
-                
+
                 ## Keep the name with better capitalization (prefer proper case over all lowercase)
                 current_name = m.get("name", "")
                 new_name = obj.get("name", "")
-                
+
                 # Prefer names that aren't all lowercase, or if both have same case style, prefer the one with more details
                 if current_name.islower() and not new_name.islower():
                     m["name"] = new_name
@@ -173,5 +173,21 @@ class ToolsFileManager:
 
         ## Replace original data with the deduped and merged list
         self.data = list(merged.values())
+
+        return self.data
+
+    def title_case(self):
+        """Convert all tool names to Title Case."""
+
+        if self.data is None:
+            self.read()
+
+        updated = []
+        for obj in self.data:
+            obj["name"] = str(obj["name"]).title()
+
+            updated.append(obj)
+
+        self.data = updated
 
         return self.data

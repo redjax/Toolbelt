@@ -47,6 +47,8 @@ def main(log_level: str = "INFO"):
 
     tools_manager.sort()
 
+    tools_manager.title_case()
+
     log.info(f"Saving sorted and deduplicated tools back to {TOOLS_JSON}")
     try:
         tools_manager.save()
