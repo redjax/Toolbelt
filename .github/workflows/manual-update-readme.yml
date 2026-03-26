@@ -7,12 +7,12 @@ jobs:
   manual-update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v3
+        uses: astral-sh/setup-uv@v7
         with:
           enable-cache: true
 
@@ -49,7 +49,7 @@ jobs:
       - name: Create Pull Request (if changes detected)
         if: steps.check-changes.outputs.changes_detected == 'true'
         id: create-pr
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GH_TOKEN }}
           title: "ci(readme) Manual update - sort tools and update README.md"
@@ -61,11 +61,11 @@ jobs:
             .repo/tools.json
           body: |
             This PR contains manual updates to the repository via the manual update workflow.
-            
+
             - Sorted tools.json file alphabetically
             - Deduplicated any duplicate tool entries
             - Updated tools table in README.md
-            
+
             Manually triggered by: @${{ github.actor }}
             Run ID: ${{ github.run_id }}
 
@@ -76,14 +76,14 @@ jobs:
         run: |
           pr_number="${{ steps.create-pr.outputs.pull-request-number }}"
           echo "Auto-merging PR #$pr_number"
-          
+
           # Wait a moment for the PR to be fully created
           sleep 5
-          
+
           # Check if PR exists and is mergeable
           pr_status=$(gh pr view $pr_number --json mergeable,state --jq '.state')
           echo "PR state: $pr_status"
-          
+
           if [ "$pr_status" = "OPEN" ]; then
             echo "Attempting to merge PR #$pr_number"
             gh pr merge $pr_number --squash --delete-branch --subject "ci: manual update - sort tools, dedupe, and update README.md"
