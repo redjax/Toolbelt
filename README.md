@@ -6,6 +6,10 @@ Tools I've found useful, with a bias towards FOSS (free, open-source software).
 
 *sourced from [`tools.json`](./.repo/tools.json)*
 
+<!-- MARKER-COUNT:START -->
+Total: 
+<!-- MARKER-COUNT:END -->
+
 <!-- MARKER-TOOLS:START -->
 
 | Name | Description | URLs |
