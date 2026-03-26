@@ -1,36 +1,5 @@
 [
     {
-        "name": "git-bug",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://https://github.com/git-bug/git-bug"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/git-bug/git-bug"
-            },
-            {
-                "name": "docs",
-                "url": "https://github.com/git-bug/git-bug/tree/trunk/doc"
-            }
-        ],
-        "description": "Distributed, offline-first bug/issue tracker embedded in Git. Decouple your issue tracking from the Git provider you're using.",
-        "tags": [
-            "cli",
-            "dev",
-            "version-manager",
-            "git"
-        ],
-        "notes": [],
-        "category": "uncategorized",
-        "platforms": [
-            "windows",
-            "linux",
-            "mac"
-        ]
-    },
-    {
         "name": "Aqua",
         "urls": [
             {
@@ -665,6 +634,37 @@
             "cli",
             "git",
             "version-control"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "windows",
+            "linux",
+            "mac"
+        ]
+    },
+    {
+        "name": "git-bug",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://https://github.com/git-bug/git-bug"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/git-bug/git-bug"
+            },
+            {
+                "name": "docs",
+                "url": "https://github.com/git-bug/git-bug/tree/trunk/doc"
+            }
+        ],
+        "description": "Distributed, offline-first bug/issue tracker embedded in Git. Decouple your issue tracking from the Git provider you're using.",
+        "tags": [
+            "cli",
+            "dev",
+            "version-manager",
+            "git"
         ],
         "notes": [],
         "category": "uncategorized",
