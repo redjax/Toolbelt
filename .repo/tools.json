@@ -58,7 +58,7 @@
         ]
     },
     {
-        "name": "BCUninstaller",
+        "name": "Bcuninstaller",
         "urls": [
             {
                 "name": "home",
@@ -117,7 +117,7 @@
         ]
     },
     {
-        "name": "Bitwarden CLI",
+        "name": "Bitwarden Cli",
         "urls": [
             {
                 "name": "home",
@@ -144,7 +144,7 @@
         ]
     },
     {
-        "name": "btop",
+        "name": "Btop",
         "urls": [
             {
                 "name": "home",
@@ -171,7 +171,7 @@
         ]
     },
     {
-        "name": "chezmoi",
+        "name": "Chezmoi",
         "urls": [
             {
                 "name": "home",
@@ -225,7 +225,7 @@
         ]
     },
     {
-        "name": "cookiecutter",
+        "name": "Cookiecutter",
         "urls": [
             {
                 "name": "home",
@@ -260,7 +260,7 @@
         ]
     },
     {
-        "name": "cyberduck",
+        "name": "Cyberduck",
         "urls": [
             {
                 "name": "home",
@@ -349,7 +349,7 @@
         ]
     },
     {
-        "name": "devpod",
+        "name": "Devpod",
         "urls": [
             {
                 "name": "home",
@@ -381,7 +381,7 @@
         ]
     },
     {
-        "name": "direnv",
+        "name": "Direnv",
         "urls": [
             {
                 "name": "home",
@@ -493,7 +493,7 @@
         ]
     },
     {
-        "name": "Fresh Terminal text editor",
+        "name": "Fresh Terminal Text Editor",
         "urls": [
             {
                 "name": "home",
@@ -523,7 +523,7 @@
         ]
     },
     {
-        "name": "fzf",
+        "name": "Fzf",
         "urls": [
             {
                 "name": "home",
@@ -614,7 +614,7 @@
         ]
     },
     {
-        "name": "git",
+        "name": "Git",
         "urls": [
             {
                 "name": "home",
@@ -644,7 +644,7 @@
         ]
     },
     {
-        "name": "git-bug",
+        "name": "Git-Bug",
         "urls": [
             {
                 "name": "home",
@@ -675,7 +675,7 @@
         ]
     },
     {
-        "name": "gitextensions",
+        "name": "Gitextensions",
         "urls": [
             {
                 "name": "home",
@@ -748,7 +748,7 @@
         ]
     },
     {
-        "name": "GParted",
+        "name": "Gparted",
         "urls": [
             {
                 "name": "home",
@@ -833,7 +833,7 @@
         ]
     },
     {
-        "name": "hoppscotch",
+        "name": "Hoppscotch",
         "urls": [
             {
                 "name": "home",
@@ -865,7 +865,7 @@
         ]
     },
     {
-        "name": "HTTPie",
+        "name": "Httpie",
         "urls": [
             {
                 "name": "home",
@@ -922,7 +922,7 @@
         ]
     },
     {
-        "name": "JSON Crack",
+        "name": "Json Crack",
         "urls": [
             {
                 "name": "home",
@@ -949,7 +949,7 @@
         ]
     },
     {
-        "name": "LazyGit",
+        "name": "Lazygit",
         "urls": [
             {
                 "name": "home",
@@ -992,7 +992,7 @@
         ]
     },
     {
-        "name": "LazyWorktree",
+        "name": "Lazyworktree",
         "urls": [
             {
                 "name": "home",
@@ -1014,7 +1014,7 @@
         ]
     },
     {
-        "name": "Llama.cpp",
+        "name": "Llama.Cpp",
         "urls": [
             {
                 "name": "home",
@@ -1200,7 +1200,7 @@
         ]
     },
     {
-        "name": "neovim",
+        "name": "Neovim",
         "urls": [
             {
                 "name": "home",
@@ -1295,7 +1295,7 @@
         ]
     },
     {
-        "name": "OpenTofu",
+        "name": "Opentofu",
         "urls": [
             {
                 "name": "home",
@@ -1330,7 +1330,7 @@
         ]
     },
     {
-        "name": "osv-scanner",
+        "name": "Osv-Scanner",
         "urls": [
             {
                 "name": "home",
@@ -1360,7 +1360,7 @@
         ]
     },
     {
-        "name": "pipx",
+        "name": "Pipx",
         "urls": [
             {
                 "name": "home",
@@ -1448,7 +1448,7 @@
         ]
     },
     {
-        "name": "Pre-commit",
+        "name": "Pre-Commit",
         "urls": [
             {
                 "name": "home",
@@ -1510,7 +1510,7 @@
         ]
     },
     {
-        "name": "radon",
+        "name": "Radon",
         "urls": [
             {
                 "name": "home",
@@ -1540,7 +1540,7 @@
         ]
     },
     {
-        "name": "RClone",
+        "name": "Rclone",
         "urls": [
             {
                 "name": "home",
@@ -1570,7 +1570,7 @@
         ]
     },
     {
-        "name": "restic",
+        "name": "Restic",
         "urls": [
             {
                 "name": "home",
@@ -1600,7 +1600,7 @@
         ]
     },
     {
-        "name": "resticprofile",
+        "name": "Resticprofile",
         "urls": [
             {
                 "name": "home",
@@ -1659,7 +1659,7 @@
         ]
     },
     {
-        "name": "ripgrep",
+        "name": "Ripgrep",
         "urls": [
             {
                 "name": "home",
@@ -1688,7 +1688,7 @@
         ]
     },
     {
-        "name": "scoop",
+        "name": "Scoop",
         "urls": [
             {
                 "name": "home",
@@ -1723,7 +1723,7 @@
         ]
     },
     {
-        "name": "ShareX",
+        "name": "Sharex",
         "urls": [
             {
                 "name": "home",
@@ -1747,7 +1747,7 @@
         ]
     },
     {
-        "name": "SOPS",
+        "name": "Sops",
         "urls": [
             {
                 "name": "home",
@@ -1772,7 +1772,7 @@
         ]
     },
     {
-        "name": "sourcegit",
+        "name": "Sourcegit",
         "urls": [
             {
                 "name": "home",
@@ -1831,7 +1831,7 @@
         ]
     },
     {
-        "name": "task",
+        "name": "Task",
         "urls": [
             {
                 "name": "home",
@@ -1862,7 +1862,7 @@
         ]
     },
     {
-        "name": "termscp",
+        "name": "Termscp",
         "urls": [
             {
                 "name": "home",
@@ -1980,7 +1980,7 @@
         ]
     },
     {
-        "name": "tmux",
+        "name": "Tmux",
         "urls": [
             {
                 "name": "home",
@@ -2010,7 +2010,7 @@
         ]
     },
     {
-        "name": "uv",
+        "name": "Uv",
         "urls": [
             {
                 "name": "home",
@@ -2100,7 +2100,7 @@
         ]
     },
     {
-        "name": "VSCode",
+        "name": "Vscode",
         "urls": [
             {
                 "name": "home",
@@ -2129,7 +2129,7 @@
         ]
     },
     {
-        "name": "vulture",
+        "name": "Vulture",
         "urls": [
             {
                 "name": "home",
@@ -2155,7 +2155,7 @@
         ]
     },
     {
-        "name": "Waterfox browser",
+        "name": "Waterfox Browser",
         "urls": [
             {
                 "name": "home",
@@ -2211,7 +2211,7 @@
         ]
     },
     {
-        "name": "WinSCP",
+        "name": "Winscp",
         "urls": [
             {
                 "name": "home",
@@ -2241,7 +2241,7 @@
         ]
     },
     {
-        "name": "WizTree",
+        "name": "Wiztree",
         "urls": [
             {
                 "name": "home",
@@ -2264,7 +2264,7 @@
         ]
     },
     {
-        "name": "xenon",
+        "name": "Xenon",
         "urls": [
             {
                 "name": "home",
@@ -2354,7 +2354,7 @@
         ]
     },
     {
-        "name": "zellij",
+        "name": "Zellij",
         "urls": [
             {
                 "name": "home",
@@ -2384,7 +2384,7 @@
         ]
     },
     {
-        "name": "Zen browser",
+        "name": "Zen Browser",
         "urls": [
             {
                 "name": "github",
