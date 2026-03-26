@@ -10,5 +10,3 @@ with tools_manager as tools_mgr:
     tools_mgr.sort()
 
     print(f"Sorted tools: {tools_mgr.data[:5]}")
-
-    print(f"Number of tools in file: {tools_manager.count()}")
