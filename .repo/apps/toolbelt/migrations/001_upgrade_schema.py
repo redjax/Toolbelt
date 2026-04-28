@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+
 from toolbelt.constants import REPO_ROOT, TOOLS_JSON
 
 OLD_TOOLS_FILE = TOOLS_JSON
