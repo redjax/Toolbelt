@@ -1,35 +1,5 @@
 [
     {
-        "name": "Lnav",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://lnav.org"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/tstck/lnav"
-            },
-            {
-                "name": "docs",
-                "url": "https://docs.lnav.org/"
-            }
-        ],
-        "description": "Lnav (the 'log file navigator') is a TUI log file viewer with Vim-like keybinds. Parse logs from many different sources, with caching for concurrent reloads, convenient search, and filtering. You can also aggregate logs from multiple sources, i.e. journalctl, all files in /var/log/messages, and the output of a `tail` command.",
-        "tags": [
-            "cli",
-            "tui",
-            "logs"
-        ],
-        "notes": [],
-        "category": "uncategorized",
-        "platforms": [
-            "windows",
-            "linux",
-            "mac"
-        ]
-    },
-    {
         "name": "Aqua",
         "urls": [
             {
@@ -1061,6 +1031,36 @@
             "quantization",
             "llm",
             "dev"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "windows",
+            "linux",
+            "mac"
+        ]
+    },
+    {
+        "name": "Lnav",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://lnav.org"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/tstck/lnav"
+            },
+            {
+                "name": "docs",
+                "url": "https://docs.lnav.org/"
+            }
+        ],
+        "description": "Lnav (the 'log file navigator') is a TUI log file viewer with Vim-like keybinds. Parse logs from many different sources, with caching for concurrent reloads, convenient search, and filtering. You can also aggregate logs from multiple sources, i.e. journalctl, all files in /var/log/messages, and the output of a `tail` command.",
+        "tags": [
+            "cli",
+            "tui",
+            "logs"
         ],
         "notes": [],
         "category": "uncategorized",
