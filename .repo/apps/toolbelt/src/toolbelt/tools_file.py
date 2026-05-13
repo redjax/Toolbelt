@@ -178,7 +178,6 @@ class ToolsFileManager:
 
     def title_case(self):
         """Convert all tool names to Title Case."""
-
         if self.data is None:
             self.read()
 
