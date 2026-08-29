@@ -1,5 +1,35 @@
 [
     {
+        "name": "Renovate",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://mend.io/renovate"
+            },
+            {
+                "name": "github",
+                "url": "https: //github.com/renovatebot/renovate"
+            },
+            {
+                "name": "Login portal",
+                "url": "https://developer.mend.io"
+            }
+        ],
+        "description": "Mend Renovate is a tool for automating dependency updates in a programming project. The server can be selfhosted, and the free cloud offering is very generous.",
+        "tags": [
+            "updates",
+            "automation",
+            "ci",
+            "devops",
+            "dev"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "web"
+        ]
+    },
+    {
         "name": "Obtainium",
         "urls": [
             {
