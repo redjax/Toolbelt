@@ -1,5 +1,31 @@
 [
     {
+        "name": "Obtainium",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://obtainium.imranr.dev/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/ImranR98/Obtainium"
+            },
+            {
+                "name": "F-Droid",
+                "url": "https://f-droid.org/packages/dev.imranr.obtainium.fdroid/"
+            }
+        ],
+        "description": "Obtainium is an app updater that pulls updates directly from release pages. It can install/update apps from Github, F-Droid, Gitlab, Forgejo, and [many other sources](https://wiki.obtainium.imranr.dev/sources/).",
+        "tags": [
+            "package-manager"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "android"
+        ]
+    },
+    {
         "name": "Aegis Authenticator",
         "urls": [
             {
