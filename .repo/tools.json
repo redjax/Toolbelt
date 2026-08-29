@@ -1,5 +1,32 @@
 [
     {
+        "name": "lf",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://github.com/gokcehan/lf"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/gokcehan/lf"
+            }
+        ],
+        "description": "lf is a powerful TUI file manager written in Go and inspired by `ranger`. It can do file and image previews, asyncronous I/O operations, and is extensible with shell commands.",
+        "tags": [
+            "cli",
+            "tui",
+            "file-explorer"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "linux",
+            "mac",
+            "windows",
+            "android"
+        ]
+    },
+    {
         "name": "Renovate",
         "urls": [
             {
