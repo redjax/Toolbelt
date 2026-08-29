@@ -1,5 +1,36 @@
 [
     {
+        "name": "Aegis Authenticator",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://getaegis.app/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/beemdevelopment/Aegis"
+            },
+            {
+                "name": "Play store",
+                "url": "https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis&hl=en-US&pli=1"
+            },
+            {
+                "name": "F-Droid",
+                "url": "https://f-droid.org/packages/com.beemdevelopment.aegis/"
+            }
+        ],
+        "description": "Aegis is a private, secure MFA code app. Can backup to/restore from local storage or a cloud like Google Drive. The backups are encrypted at rest.",
+        "tags": [
+            "security",
+            "mfa"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "android"
+        ]
+    },
+    {
         "name": "Backrest",
         "urls": [
             {
