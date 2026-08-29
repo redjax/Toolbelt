@@ -1,5 +1,148 @@
 [
     {
+        "name": "lf",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://github.com/gokcehan/lf"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/gokcehan/lf"
+            }
+        ],
+        "description": "lf is a powerful TUI file manager written in Go and inspired by `ranger`. It can do file and image previews, asyncronous I/O operations, and is extensible with shell commands.",
+        "tags": [
+            "cli",
+            "tui",
+            "file-explorer"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "linux",
+            "mac",
+            "windows",
+            "android"
+        ]
+    },
+    {
+        "name": "Renovate",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://mend.io/renovate"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/renovatebot/renovate"
+            },
+            {
+                "name": "Login portal",
+                "url": "https://developer.mend.io"
+            }
+        ],
+        "description": "Mend Renovate is a tool for automating dependency updates in a programming project. The server can be selfhosted, and the free cloud offering is very generous.",
+        "tags": [
+            "updates",
+            "automation",
+            "ci",
+            "devops",
+            "dev"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "web"
+        ]
+    },
+    {
+        "name": "Obtainium",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://obtainium.imranr.dev/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/ImranR98/Obtainium"
+            },
+            {
+                "name": "F-Droid",
+                "url": "https://f-droid.org/packages/dev.imranr.obtainium.fdroid/"
+            }
+        ],
+        "description": "Obtainium is an app updater that pulls updates directly from release pages. It can install/update apps from Github, F-Droid, Gitlab, Forgejo, and [many other sources](https://wiki.obtainium.imranr.dev/sources/).",
+        "tags": [
+            "package-manager"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "android"
+        ]
+    },
+    {
+        "name": "Aegis Authenticator",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://getaegis.app/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/beemdevelopment/Aegis"
+            },
+            {
+                "name": "Play store",
+                "url": "https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis&hl=en-US&pli=1"
+            },
+            {
+                "name": "F-Droid",
+                "url": "https://f-droid.org/packages/com.beemdevelopment.aegis/"
+            }
+        ],
+        "description": "Aegis is a private, secure MFA code app. Can backup to/restore from local storage or a cloud like Google Drive. The backups are encrypted at rest.",
+        "tags": [
+            "security",
+            "mfa"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "android"
+        ]
+    },
+    {
+        "name": "Backrest",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://garethgeorge.github.io/backrest/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/garethgeorge/backrest"
+            },
+            {
+                "name": "docs",
+                "url": "https://garethgeorge.github.io/backrest/introduction/getting-started"
+            }
+        ],
+        "description": "Backrest is a webUI for scheduling and managing Restic backups.",
+        "tags": [
+            "web",
+            "backup"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "windows",
+            "linux",
+            "mac"
+        ]
+    },
+    {
         "name": "Aqua",
         "urls": [
             {
