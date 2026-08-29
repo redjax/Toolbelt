@@ -1,5 +1,34 @@
 [
     {
+        "name": "Backrest",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://garethgeorge.github.io/backrest/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/garethgeorge/backrest"
+            },
+            {
+                "name": "docs",
+                "url": "https://garethgeorge.github.io/backrest/introduction/getting-started"
+            }
+        ],
+        "description": "Backrest is a webUI for scheduling and managing Restic backups.",
+        "tags": [
+            "web",
+            "backup"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "windows",
+            "linux",
+            "mac"
+        ]
+    },
+    {
         "name": "Aqua",
         "urls": [
             {
