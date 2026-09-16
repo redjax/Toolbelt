@@ -1,5 +1,38 @@
 [
     {
+        "name": "Vicinae Launcher",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://www.vicinae.com/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/vicinaehq/vicinae"
+            },
+            {
+                "name": "Docs",
+                "url": "https://docs.vicinae.com/"
+            },
+            {
+                "name": "Extensions",
+                "url": "https://www.vicinae.com/extensions"
+            }
+        ],
+        "description": "Vicinae is a Spotlight-like \"ALT+Space launcher\" that integrates with your system using extensions.",
+        "tags": [
+            "altspacelauncher",
+            "search"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "linux",
+            "windows",
+            "mac"
+        ]
+    },
+    {
         "name": "Aegis Authenticator",
         "urls": [
             {
