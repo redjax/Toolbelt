@@ -30,7 +30,7 @@ jobs:
 
       - name: Install uv
         if: steps.changed-files.outputs.any_changed == 'true'
-        uses: astral-sh/setup-uv@v10.1.0
+        uses: astral-sh/setup-uv@v10.2.0
         with:
           enable-cache: true
 
