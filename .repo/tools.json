@@ -1,5 +1,40 @@
 [
     {
+        "name": "LeanType Keyboard",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://leanbitlab.github.io/LeanBitLab/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/LeanBitLab/LeanType"
+            },
+            {
+                "name": "Github releases",
+                "url": "https://github.com/LeanBitLab/LeanType/releases/latest"
+            },
+            {
+                "name": "Obtainium",
+                "url": "https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/LeanBitLab/LeanType"
+            },
+            {
+                "name": "F-Droid",
+                "url": "https://f-droid.org/en/packages/com.leanbitlab.leantype/index.html"
+            }
+        ],
+        "description": "LeanType is a fork of Heliboard, a functional and privacy-oriented Android keyboard. LeanType adds additional features missing from Heliboard, like on-device Whisper Voice typing, smart toolbar, built-in self updater, and rich text editing tools. It is a good alternative to Google Keyboard.",
+        "tags": [
+            "keyboard",
+            "android-app"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "android"
+        ]
+    },
+    {
         "name": "Aegis Authenticator",
         "urls": [
             {
