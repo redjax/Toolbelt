@@ -1,57 +1,5 @@
 [
     {
-        "name": "Copyparty",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://copyparty.eu/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/9001/copyparty"
-            }
-        ],
-        "description": "Copyparty is a portable file server that supports many protocols, has features like media indexing, resumable downloads, and a webUI. It only needs Python (2 or 3) to run, and its installation method is a Python script that contains a .tar.gz embedded in the script (the literal binary content is in the .py file); this is why Python is required, the script extracts itself and runs the program.",
-        "tags": [
-            "file-transfer",
-            "filesend",
-            "filesharing"
-        ],
-        "notes": [],
-        "category": "uncategorized",
-        "platforms": [
-            "linux",
-            "mac",
-            "windows"
-        ]
-    },
-    {
-        "name": "SFTPGo",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://sftpgo.com/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/drakkan/sftpgo"
-            }
-        ],
-        "description": "SFTPGo is a configurable file transfer server that supports local and cloud storage backends. It is a single binary and supports many protocols, like SFTP, HTTP(S), (S)FTP, and DAV.",
-        "tags": [
-            "file-transfer",
-            "filesend",
-            "filesharing"
-        ],
-        "notes": [],
-        "category": "uncategorized",
-        "platforms": [
-            "linux",
-            "mac",
-            "windows"
-        ]
-    },
-    {
         "name": "Aegis Authenticator",
         "urls": [
             {
@@ -369,6 +317,32 @@
             "windows",
             "linux",
             "mac"
+        ]
+    },
+    {
+        "name": "Copyparty",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://copyparty.eu/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/9001/copyparty"
+            }
+        ],
+        "description": "Copyparty is a portable file server that supports many protocols, has features like media indexing, resumable downloads, and a webUI. It only needs Python (2 or 3) to run, and its installation method is a Python script that contains a .tar.gz embedded in the script (the literal binary content is in the .py file); this is why Python is required, the script extracts itself and runs the program.",
+        "tags": [
+            "file-transfer",
+            "filesend",
+            "filesharing"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "linux",
+            "mac",
+            "windows"
         ]
     },
     {
@@ -1973,6 +1947,32 @@
         "notes": [],
         "category": "uncategorized",
         "platforms": [
+            "windows"
+        ]
+    },
+    {
+        "name": "Sftpgo",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://sftpgo.com/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/drakkan/sftpgo"
+            }
+        ],
+        "description": "SFTPGo is a configurable file transfer server that supports local and cloud storage backends. It is a single binary and supports many protocols, like SFTP, HTTP(S), (S)FTP, and DAV.",
+        "tags": [
+            "file-transfer",
+            "filesend",
+            "filesharing"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "linux",
+            "mac",
             "windows"
         ]
     },
