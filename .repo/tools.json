@@ -1,42 +1,5 @@
 [
     {
-        "name": "Vimium",
-        "urls": [
-            {
-                "name": "home",
-                "url": "https://vimium.github.io/"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/philc/vimium"
-            },
-            {
-                "name": "Chrome extension",
-                "url": "https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb"
-            },
-            {
-                "name": "Edge extension",
-                "url": "https://microsoftedge.microsoft.com/addons/detail/vimium/djmieaghokpkpjfbpelnlkfgfjapaopa"
-            },
-            {
-                "name": "Firefox extension",
-                "url": "https://addons.mozilla.org/en-GB/firefox/addon/vimium-ff/"
-            }
-        ],
-        "description": "Browser extension for Chrome, Edge, and Firefox that adds vim-like keyboard shortcuts for controlling the browser. Scroll up and down with `j` and `k`, search open tabs with `T`, use `/` to search and `n`/`N` for next/previous match, etc.",
-        "tags": [
-            "browser",
-            "browser-extension",
-            "vim",
-            "keybinds"
-        ],
-        "notes": [],
-        "category": "uncategorized",
-        "platforms": [
-            "android"
-        ]
-    },
-    {
         "name": "Aegis Authenticator",
         "urls": [
             {
@@ -2421,6 +2384,43 @@
             "linux",
             "windows",
             "mac"
+        ]
+    },
+    {
+        "name": "Vimium",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://vimium.github.io/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/philc/vimium"
+            },
+            {
+                "name": "Chrome extension",
+                "url": "https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb"
+            },
+            {
+                "name": "Edge extension",
+                "url": "https://microsoftedge.microsoft.com/addons/detail/vimium/djmieaghokpkpjfbpelnlkfgfjapaopa"
+            },
+            {
+                "name": "Firefox extension",
+                "url": "https://addons.mozilla.org/en-GB/firefox/addon/vimium-ff/"
+            }
+        ],
+        "description": "Browser extension for Chrome, Edge, and Firefox that adds vim-like keyboard shortcuts for controlling the browser. Scroll up and down with `j` and `k`, search open tabs with `T`, use `/` to search and `n`/`N` for next/previous match, etc.",
+        "tags": [
+            "browser",
+            "browser-extension",
+            "vim",
+            "keybinds"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "android"
         ]
     },
     {
