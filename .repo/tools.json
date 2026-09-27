@@ -1,5 +1,31 @@
 [
     {
+        "name": "SFTPGo",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://sftpgo.com/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/drakkan/sftpgo"
+            }
+        ],
+        "description": "SFTPGo is a configurable file transfer server that supports local and cloud storage backends. It is a single binary and supports many protocols, like SFTP, HTTP(S), (S)FTP, and DAV.",
+        "tags": [
+            "file-transfer",
+            "filesend",
+            "filesharing"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "linux",
+            "mac",
+            "windows"
+        ]
+    },
+    {
         "name": "Aegis Authenticator",
         "urls": [
             {
