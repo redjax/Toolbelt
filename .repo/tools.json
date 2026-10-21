@@ -4,6 +4,31 @@
         "urls": [
             {
                 "name": "home",
+                "url": "https://jonas.github.io/tig/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/jonas/tig"
+            }
+        ],
+        "description": "Tig is a text-mode CLI for Git, built with ncurses. It's main strength is browsing a repository's history, but it can also function as a pager by wrapping standard Git operations.",
+        "tags": [
+            "git",
+            "cli",
+            "tui"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "linux",
+            "mac"
+        ]
+    },
+    {
+        "name": "Aegis Authenticator",
+        "urls": [
+            {
+                "name": "home",
                 "url": "https://getaegis.app/"
             },
             {
