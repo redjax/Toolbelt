@@ -859,6 +859,32 @@
         ]
     },
     {
+        "name": "Gitu",
+        "urls": [
+            {
+                "name": "home",
+                "url": "https://github.com/altsem/gitu"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/altsem/gitu"
+            }
+        ],
+        "description": "A TUI for Git, inspired by the Magit plugin for Emacs.",
+        "tags": [
+            "git",
+            "cli",
+            "tui"
+        ],
+        "notes": [],
+        "category": "uncategorized",
+        "platforms": [
+            "windows",
+            "mac",
+            "linux"
+        ]
+    },
+    {
         "name": "Gparted",
         "urls": [
             {
