@@ -1,5 +1,30 @@
 [
   {
+    "name": "Kitty Terminal",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://sw.kovidgoyal.net/kitty/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/kovidgoyal/kitty"
+      }
+    ],
+    "description": "Kitty is a fat, GPU-accelrated, cross platform terminal emulator from the developer who built Calibre. Kitty is highly customizable and extensible, as well as being highly resource efficient.",
+    "tags": [
+      "terminal",
+      "cli"
+    ],
+    "notes": [],
+    "category": "uncategorized",
+    "platforms": [
+      "linux",
+      "mac",
+      "windows"
+    ]
+  },
+  {
     "name": "Aegis Authenticator",
     "urls": [
       {
