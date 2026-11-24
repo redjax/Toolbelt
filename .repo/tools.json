@@ -1,5 +1,30 @@
 [
   {
+    "name": "Alacritty Terminal",
+    "urls": [
+      {
+        "name": "home",
+        "url": "https://alacritty.org"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/alacritty/alacritty"
+      }
+    ],
+    "description": "Alacritty is a fast, cross-platform terminal emulator. It is light on resources and leans on the minimalist side in terms of features. It does not have built-in multiplexing or tabs, but it has a simple TOML configuration format and support Vi motions.",
+    "tags": [
+      "terminal",
+      "cli"
+    ],
+    "notes": [],
+    "category": "uncategorized",
+    "platforms": [
+      "linux",
+      "mac",
+      "windows"
+    ]
+  },
+  {
     "name": "Kitty Terminal",
     "urls": [
       {
