@@ -28,6 +28,11 @@ jobs:
           echo "Any changed files: ${{ steps.changed-files.outputs.any_changed }}"
           echo "All changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
 
+      - name: Install Python
+        uses: actions/setup-python@v6
+        with:
+          python-version-file: ".python-version"
+
       - name: Install uv
         if: steps.changed-files.outputs.any_changed == 'true'
         uses: astral-sh/setup-uv@v10.4.0

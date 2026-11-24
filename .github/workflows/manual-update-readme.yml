@@ -2,6 +2,15 @@ name: Manual Update README
 
 on:
   workflow_dispatch:
+    inputs:
+      enable_cache:
+        description: "Use the uv cache"
+        type: boolean
+        default: true
+      bust_cache:
+        description: "Ignore the existing cache and save a fresh one"
+        type: boolean
+        default: false
 
 jobs:
   manual-update-readme:
@@ -11,10 +20,16 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install Python
+        uses: actions/setup-python@v6
+        with:
+          python-version-file: ".python-version"
+
       - name: Install uv
         uses: astral-sh/setup-uv@v10.4.0
         with:
-          enable-cache: true
+          enable-cache: ${{ inputs.enable_cache }}
+          cache-suffix: ${{ (inputs.bust_cache && github.run_id) || '' }}
 
       - name: Configure Git
         run: |
