@@ -20,12 +20,16 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install Python
+        uses: actions/setup-python@v6
+        with:
+          python-version-file: ".python-version"
+
       - name: Install uv
         uses: astral-sh/setup-uv@v10.4.0
         with:
           enable-cache: ${{ inputs.enable_cache }}
           cache-suffix: ${{ (inputs.bust_cache && github.run_id) || '' }}
-          python-version-file: ".python-version"
 
       - name: Configure Git
         run: |
