@@ -33,6 +33,7 @@ jobs:
         uses: astral-sh/setup-uv@v10.4.0
         with:
           enable-cache: true
+          python-version-file: ".python-version"
 
       - name: Configure Git
         if: steps.changed-files.outputs.any_changed == 'true'
